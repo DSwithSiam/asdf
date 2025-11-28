@@ -128,8 +128,15 @@
     "vba-20-0995-are": "email_address_1",
     "_types": "str"
   },
+  "veterans_email_secondary": {
+    "vba-21-0781-are": "email_address_2",
+    "vba-21-4138-are": "email_address_2",
+    "VBA-21-526EZ-ARE": "email_address_2",
+    "VBA-21-0966-ARE": "email_address_2",
+    "vba-20-0995-are": "email_address_2",
+    "_types": "str"
+  },
   "veterans_mailing_address": {
-    
     "vba-21-4138-are": "mailing_address",
     "VBA-21-526EZ-ARE": "current_mailing_address",
     "VBA-21-0966-ARE": "mailing_address",
@@ -137,7 +144,6 @@
     "_types": "str"
   },
   "veterans_city": {
-    
     "vba-21-4138-are": "city",
     "VBA-21-526EZ-ARE": "city_1",
     "VBA-21-0966-ARE": "city",
@@ -145,7 +151,6 @@
     "_types": "str"
   },
   "veterans_state": {
-    
     "vba-21-4138-are": "state_province",
     "VBA-21-526EZ-ARE": "state_province_1",
     "VBA-21-0966-ARE": "state_province_1",
@@ -153,15 +158,14 @@
     "_types": "str"
   },
   "veterans_country": {
-    
     "vba-21-4138-are": "country",
     "VBA-21-526EZ-ARE": "country_1",
     "VBA-21-0966-ARE": "country",
     "vba-20-0995-are": "country",
     "_types": "str"
   },
+
   "veterans_zip_1": {
-    
     "vba-21-4138-are": "zip_code_postal_code_1",
     "VBA-21-526EZ-ARE": "zip_code_postal_code_1",
     "VBA-21-0966-ARE": "zip_code_postal_code_1",
@@ -169,7 +173,6 @@
     "_types": "str"
   },
   "veterans_zip_2": {
-    
     "vba-21-4138-are": "zip_code_postal_code_2",
     "VBA-21-526EZ-ARE": "zip_code_postal_code_2",
     "VBA-21-0966-ARE": "zip_code_postal_code_2",
@@ -194,18 +197,7 @@
     "vba-20-0995-are": "are_you_currently_homeless_or_at_risk_of_becoming_homeless_no",
     "_types": "checkbox"
   },
-  "veterans_apt_unit": {
-    "vba-21-4138-are": "aptunit_number",
-    "VBA-21-526EZ-ARE": "apt_unit_number_1",
-    "VBA-21-0966-ARE": "aptunit_number_1",
-    "vba-20-0995-are": "apt_unit_number_1",
-    "_types": "str"
-  },
-  "veterans_new_address": {
-    "VBA-21-526EZ-ARE": "new_address",
-    "vba-20-0995-are": "mailing_address_2",
-    "_types": "str"
-  },
+
   "witness1_signature_image": {
     "vba-21-0781-are": "17a_signature_of_witness",
     "VBA-21-526EZ-ARE": "signature_of_witness_note_only_sign_if_veteran_signed_in_item_33a_using_an_x",
@@ -845,11 +837,7 @@
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow9_2",
     "_types": "str"
   },
-  "apt_unit_number_2": {
-    "VBA-21-526EZ-ARE": "apt_unit_number_2",
-    "vba-20-0995-are": "apt_unit_number_2",
-    "_types": "str"
-  },
+
   "are_you_claiming_no": {
     "VBA-21-526EZ-ARE": "are_you_claiming_no",
     "_types": "checkbox"
@@ -1055,8 +1043,20 @@
     "vba-21-0781-are": "civilian_police_reports",
     "_types": "checkbox"
   },
+  "veterans_apt_unit": {
+  "vba-21-4138-are": "aptunit_number",
+  "VBA-21-526EZ-ARE": "apt_unit_number_1",
+  "VBA-21-0966-ARE": "aptunit_number_1",
+  "vba-20-0995-are": "apt_unit_number_1",
+  "_types": "str"
+},
   "claimant_aptunit_number": {
     "VBA-21-0966-ARE": "claimant_aptunit_number",
+    "vba-20-0995-are": "apt_unit_number_2",
+    "_types": "str"
+  },
+  "change_of_address_apt_unit_number": {
+    "VBA-21-526EZ-ARE": "apt_unit_number_2",
     "_types": "str"
   },
   "claimant_city": {
@@ -1065,26 +1065,37 @@
   },
   "claimant_country": {
     "VBA-21-0966-ARE": "claimant_country",
+    "VBA-21-526EZ-ARE": "country_2",
+    "VBA-21-0966-ARE": "country_2",
+    "vba-20-0995-are": "country_2",
     "_types": "str"
   },
   "claimant_dob_day": {
     "vba-20-0995-are": "claimant_dob_day",
+    "VBA-21-0966-ARE": "claimants_dob_day",
     "_types": "str"
   },
   "claimant_dob_month": {
     "vba-20-0995-are": "claimant_dob_month",
+    "VBA-21-0966-ARE": "claimants_dob_month",
+    "vba-20-0995-are": "dob_month_2",
     "_types": "str"
   },
   "claimant_dob_year": {
+    "VBA-21-0966-ARE": "claimants_dob_year",
     "vba-20-0995-are": "claimant_dob_year",
+    "vba-20-0995-are": "dob_year_2",
     "_types": "str"
   },
-  "claimant_email_address_1": {
+  "claimant_email_address_primary": {
     "VBA-21-0966-ARE": "claimant_email_address_1",
+    "vba-20-0995-are": "email_address_3",
     "_types": "str"
   },
-  "claimant_email_address_2": {
+  "claimant_email_address_secondary": {
     "VBA-21-0966-ARE": "claimant_email_address_2",
+    "vba-20-0995-are": "email_address_4",
+    "VBA-21-526EZ-ARE": "email_address_number_02",
     "_types": "str"
   },
   "claimant_first_name": {
@@ -1101,6 +1112,7 @@
   },
   "claimant_mailing_address": {
     "VBA-21-0966-ARE": "claimant_mailing_address",
+    "vba-20-0995-are": "mailing_address_2",
     "_types": "str"
   },
   "claimant_middle_name": {
@@ -1145,26 +1157,19 @@
   },
   "claimant_va_file_number": {
     "VBA-21-0966-ARE": "claimant_va_file_number",
+    "vba-20-0995-are": "va_file_number_2",
     "_types": "str"
   },
   "claimant_zip_code_postal_code_1": {
+    "VBA-21-526EZ-ARE": "zip_code_postal_code_3",
+    "vba-20-0995-are": "zip_code_postal_code_3",
     "VBA-21-0966-ARE": "claimant_zip_code_postal_code_1",
     "_types": "str"
   },
   "claimant_zip_code_postal_code_2": {
     "VBA-21-0966-ARE": "claimant_zip_code_postal_code_2",
-    "_types": "str"
-  },
-  "claimants_dob_day": {
-    "VBA-21-0966-ARE": "claimants_dob_day",
-    "_types": "str"
-  },
-  "claimants_dob_month": {
-    "VBA-21-0966-ARE": "claimants_dob_month",
-    "_types": "str"
-  },
-  "claimants_dob_year": {
-    "VBA-21-0966-ARE": "claimants_dob_year",
+    "VBA-21-526EZ-ARE": "zip_code_postal_code_4",
+    "vba-20-0995-are": "zip_code_postal_code_4",
     "_types": "str"
   },
   "claimants_first_name": {
@@ -1225,12 +1230,6 @@
   },
   "contact_telephone_number_operator_code": {
     "VBA-21-526EZ-ARE": "contact_telephone_number_operator_code",
-    "_types": "str"
-  },
-  "claimant_country_2": {
-    "VBA-21-526EZ-ARE": "country_2",
-    "VBA-21-0966-ARE": "country_2",
-    "vba-20-0995-are": "country_2",
     "_types": "str"
   },
   "current_disability_row_10_2": {
@@ -1694,14 +1693,6 @@
     "vba-21-0781-are": "disciplinary_or_legal_difficulties",
     "_types": "str"
   },
-  "dob_month_2": {
-    "vba-20-0995-are": "dob_month_2",
-    "_types": "str"
-  },
-  "dob_year_2": {
-    "vba-20-0995-are": "dob_year_2",
-    "_types": "str"
-  },
   "don't_have_date_1": {
     "vba-20-0995-are": "don't_have_date_1",
     "_types": "checkbox"
@@ -1746,27 +1737,9 @@
     "vba-21-0781-are": "economics_or_social_behavioral_changes",
     "_types": "str"
   },
-  "email_address_2": {
-    "vba-21-4138-are": "email_address_2",
-    "VBA-21-0966-ARE": "email_address_2",
-    "vba-20-0995-are": "email_address_2",
-    "_types": "str"
-  },
-  "email_address_3": {
-    "vba-20-0995-are": "email_address_3",
-    "_types": "str"
-  },
-  "email_address_4": {
-    "vba-20-0995-are": "email_address_4",
-    "_types": "str"
-  },
   "email_address_agree": {
     "VBA-21-526EZ-ARE": "email_address_agree",
     "_types": "checkbox"
-  },
-  "email_address_number_02": {
-    "VBA-21-526EZ-ARE": "email_address_number_02",
-    "_types": "str"
   },
   "enter_international_phone_number": {
     "VBA-21-526EZ-ARE": "enter_international_phone_number",
@@ -2641,15 +2614,11 @@
     "VBA-21-526EZ-ARE": "to_year_5",
     "_types": "str"
   },
-  "va_file_number_2": {
-    "vba-20-0995-are": "va_file_number_2",
-    "_types": "str"
-  },
-  "va_insurance_policy_number_1": {
+  "veteran_insurance_policy_number": {
     "vba-20-0995-are": "va_insurance_policy_number_1",
     "_types": "str"
   },
-  "va_insurance_policy_number_2": {
+  "claimant_insurance_policy_number": {
     "vba-20-0995-are": "va_insurance_policy_number_2",
     "_types": "str"
   },
@@ -2854,19 +2823,6 @@
     
     "VBA-21-526EZ-ARE": "your_living-situation_staying",
     "_types": "checkbox"
-  },
-  "zip_code_postal_code": {
-    "VBA-21-526EZ-ARE": "zip_code_postal_code",
-    "_types": "str"
-  },
-  "zip_code_postal_code_3": {
-    "VBA-21-526EZ-ARE": "zip_code_postal_code_3",
-    "vba-20-0995-are": "zip_code_postal_code_3",
-    "_types": "str"
-  },
-  "zip_code_postal_code_4": {
-    "VBA-21-526EZ-ARE": "zip_code_postal_code_4",
-    "vba-20-0995-are": "zip_code_postal_code_4",
-    "_types": "str"
   }
+
 }
