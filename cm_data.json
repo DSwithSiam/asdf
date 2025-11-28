@@ -2755,15 +2755,16 @@
   },
   "iii_11_police_report_descrption": {
     "vba-21-0781-are": "iii_11_police_report_descrption",
-    "_types": "checkbox"
+    "_types": "str"
   },
   "iii_11_other_description": {
     "vba-21-0781-are": "iii_11_other_description",
-    "_types": "checkbox"
+    "_types": "str"
   },
-  "other_specify_below": {
-    "vba-21-0781-are": "other_specify_below",
-    "_types": "checkbox"
+  "iii_12_other_description": {
+    "vba-21-0781-are": "iii_12_other_description",
+    "_types": "str"
+  }
 
 
 }

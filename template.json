@@ -143,9 +143,9 @@
 
 "remarks_if_any":"",  
 "16a_veteran_service_members_signature":"", 
-"16b_date_signed_month":"CurrentMonth",
-"16b_date_signed_day":"CurrentDay",
-"16b_date_signed_year":"CurrentYear",
+"16b_date_signed_month":"",
+"16b_date_signed_day":"",
+"16b_date_signed_year":"",
 "17a_signature_of_witness":"", 
 "17b_printed_name_and_address_of_witness":"",
 "18a_signature_of_witness":"", 
@@ -203,9 +203,9 @@
 	"veterans_social_security_part_3":"",
 	"section_ii_remarks_continued_the_following_statement_is_made_in_connection_with_a_claim_for_benefits_in_the_case_of_the_abovenamed_veteranbeneficiaryrow1":"",
 	"signature_of_veteran_beneficiary_required":"",
-	"date_signed_month":"CurrentMonth",
-	"date_signed_day":"CurrentDay",
-	"date_signed_year":"CurrentYear"
+	"date_signed_month":"",
+	"date_signed_day":"",
+	"date_signed_year":""
 	},
 
     
@@ -592,10 +592,10 @@
     
 	"name_of_financial_institution":"",  
 	"routing_or_transit_number":"",
-	"veteranservice_member_signature_required":"NoFile", 
-	"date_signed_month_33b":"CurrentMonth", 
-	"date_signed_day_33b":"CurrentDay",  
-	"date_signed_year_33b":"CurrentYear",
+	"veteranservice_member_signature_required":"", 
+	"date_signed_month_33b":"", 
+	"date_signed_day_33b":"",  
+	"date_signed_year_33b":"",
 	"signature_of_witness_note_only_sign_if_veteran_signed_in_item_33a_using_an_x":"", 
 	"printend_name_and_addrees_of_witness_34a":"",  		 																
 	"35a_signature_of_witness_note_only_sign_if_veteran_signed_in_item_33a_using_an_x":"",
@@ -947,7 +947,7 @@
 	"none_of_these_situations_apply_to_me":"",
 
 	"other_specify":"",
-    "note_va_has_access_to_vamc_cboc_and_mtf_records_a_consent_form_is_not_needed_however_if_you_would_like_va_to_attempt_to_obtain_your_private_provider":"akjsdflkajsdklfjlkasjdflj",
+    "note_va_has_access_to_vamc_cboc_and_mtf_records_a_consent_form_is_not_needed_however_if_you_would_like_va_to_attempt_to_obtain_your_private_provider":"",
     
 	"Statement_of_the_Case_SOC":"",
     
@@ -1078,20 +1078,20 @@
 	"don't_have_date_3":"",
 
 	"i_certify_that_yes":"",
-	"i_certify_that_no":"Off",
+	"i_certify_that_no":"",
 
 	"i_consent":"",
 	"i_donot_consent":"",
 	"revoke_consent":"",
 	"not_applicable_consent":"",
 
-	"veteran_claimant_signature":"Image Field",
+	"veteran_claimant_signature":"",
 
-	"25b_date_signed_month":"CurrentMonth",
+	"25b_date_signed_month":"",
 
-    "25b_date_signed_day":"CurrentDay",
+    "25b_date_signed_day":"",
 
-    "25b_date_signed_year":"CurrentYear",
+    "25b_date_signed_year":"",
 
 	"signature_of_the_first_witness":"",
 

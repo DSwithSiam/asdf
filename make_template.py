@@ -54,7 +54,8 @@ signecher_date_fields = [
 
 ai_genareted_fields = [
     {
-   
+    "vba-21-4138-are" : "section_ii_remarks_the_following_statement_is_made_in_connection_with_a_claim_for_benefits_in_the_case_of_the_abovenamed_veteranbeneficiaryrow1",
+    "vba-21-4138-are": "section_ii_remarks_continued_the_following_statement_is_made_in_connection_with_a_claim_for_benefits_in_the_case_of_the_abovenamed_veteranbeneficiaryrow1",
     "_type": "naretion"
     }
 ]
@@ -64,6 +65,7 @@ static_fields = [
     "VBA-21-526EZ-ARE" : "THE_TYPE_OF_CLAIM_PROGRAM_PROCESS_FDC_PROGRAM",
     "VBA-21-526EZ-ARE": "email_address_agree",
     "VBA-21-526EZ-ARE": "are_you_claiming_no",
+    "vba-21-0781-are": "consent_04",
     "_type": "checkbox"
     },
     {
@@ -76,6 +78,8 @@ static_fields = [
 
 signecher_fields = {
     "VBA-21-526EZ-ARE" : "veteranservice_member_signature_required",
+    "vba-21-0781-are" : "16a_veteran_service_members_signature",
+    "vba-21-4138-are":"signature_of_veteran_beneficiary_required",
     }
 
 
