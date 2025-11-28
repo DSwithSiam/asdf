@@ -65,6 +65,7 @@ static_fields = [
     "VBA-21-526EZ-ARE" : "THE_TYPE_OF_CLAIM_PROGRAM_PROCESS_FDC_PROGRAM",
     "VBA-21-526EZ-ARE": "email_address_agree",
     "VBA-21-526EZ-ARE": "are_you_claiming_no",
+    "VBA-21-0966-ARE":"I_agree_to_receive_electronic_correspondence_from_VA_in_regards_to_my_claim",
     "VBA-21-0966-ARE": "compensation",
     "vba-21-0781-are": "consent_04",
     "_type": "checkbox"
