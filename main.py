@@ -2,7 +2,7 @@ import os
 import json
 from typing import Any, Dict, List
 
-from auto_data_field import auto_value_field, auto_value_field
+from make_template import auto_value_field, auto_value_field
 json_path = os.path.join(os.path.dirname(__file__), "cm_data.json")
 # load existing cm_data if present
 if os.path.exists(json_path):

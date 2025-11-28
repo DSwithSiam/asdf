@@ -149,12 +149,13 @@
     "vba-20-0995-are": "email_address_1",
     "_types": "str"
   },
-  "veterans_email_secondary": {
+  "veterans_email_optional": {
     "vba-21-0781-are": "email_address_2",
     "vba-21-4138-are": "email_address_2",
     "VBA-21-526EZ-ARE": "email_address_2",
     "VBA-21-0966-ARE": "email_address_2",
     "vba-20-0995-are": "email_address_2",
+    "VBA-21-526EZ-ARE": "email_address_number_02",
     "_types": "str"
   },
   "veterans_mailing_address": {
@@ -186,14 +187,14 @@
     "_types": "str"
   },
 
-  "veterans_zip_1": {
+  "veterans_zip_code": {
     "vba-21-4138-are": "zip_code_postal_code_1",
     "VBA-21-526EZ-ARE": "zip_code_postal_code_1",
     "VBA-21-0966-ARE": "zip_code_postal_code_1",
     "vba-20-0995-are": "zip_code_postal_code_1",
     "_types": "str"
   },
-  "veterans_zip_2": {
+  "veterans_postal_code": {
     "vba-21-4138-are": "zip_code_postal_code_2",
     "VBA-21-526EZ-ARE": "zip_code_postal_code_2",
     "VBA-21-0966-ARE": "zip_code_postal_code_2",
@@ -710,11 +711,11 @@
     "VBA-21-526EZ-ARE": "amount_received_2",
     "_types": "str"
   },
-  "anticipated_separation_1": {
+  "place_of_last_or_anticipated_separation_1": {
     "VBA-21-526EZ-ARE": "anticipated_separation_1",
     "_types": "str"
   },
-  "anticipated_separation_2": {
+  "place_of_last_or_anticipated_separation_2": {
     "VBA-21-526EZ-ARE": "anticipated_separation_2",
     "_types": "str"
   },
@@ -1113,10 +1114,9 @@
     "vba-20-0995-are": "email_address_3",
     "_types": "str"
   },
-  "claimant_email_address_secondary": {
+  "claimant_email_address_optional": {
     "VBA-21-0966-ARE": "claimant_email_address_2",
     "vba-20-0995-are": "email_address_4",
-    "VBA-21-526EZ-ARE": "email_address_number_02",
     "_types": "str"
   },
   "claimant_first_name": {
@@ -1657,31 +1657,31 @@
     "vba-21-0781-are": "dates_the_traumatic_events_occured_year_number_6",
     "_types": "str"
   },
-  "day_10": {
+  "confinement_day_10": {
     "VBA-21-526EZ-ARE": "day_10",
     "_types": "str"
   },
-  "day_11": {
+  "confinement_day_11": {
     "VBA-21-526EZ-ARE": "day_11",
     "_types": "str"
   },
-  "day_3": {
+  "most_recent_active_service_day_3": {
     "VBA-21-526EZ-ARE": "day_3",
     "_types": "str"
   },
-  "day_6": {
+  "activation_day_6": {
     "VBA-21-526EZ-ARE": "day_6",
     "_types": "str"
   },
-  "day_7": {
+  "anticipated_day_7": {
     "VBA-21-526EZ-ARE": "day_7",
     "_types": "str"
   },
-  "day_8": {
+  "confinement_day_8": {
     "VBA-21-526EZ-ARE": "day_8",
     "_types": "str"
   },
-  "day_9": {
+  "confinement_day_9": {
     "VBA-21-526EZ-ARE": "day_9",
     "_types": "str"
   },
@@ -1777,15 +1777,15 @@
     "VBA-21-526EZ-ARE": "ever_received_separation_yes",
     "_types": "checkbox"
   },
-  "exit_date_day": {
+  "most_recent_active_service_exit_date_day": {
     "VBA-21-526EZ-ARE": "exit_date_day",
     "_types": "str"
   },
-  "exit_date_month": {
+  "most_recent_active_service_exit_date_month": {
     "VBA-21-526EZ-ARE": "exit_date_month",
     "_types": "str"
   },
-  "exit_date_year": {
+  "most_recent_active_service_exit_date_year": {
     "VBA-21-526EZ-ARE": "exit_date_year",
     "_types": "str"
   },
@@ -2265,31 +2265,31 @@
     "VBA-21-526EZ-ARE": "military_retired_pay_yes",
     "_types": "checkbox"
   },
-  "month_10": {
+  "confinement_month_10": {
     "VBA-21-526EZ-ARE": "month_10",
     "_types": "str"
   },
-  "month_11": {
+  "confinement_month_11": {
     "VBA-21-526EZ-ARE": "month_11",
     "_types": "str"
   },
-  "month_3": {
+  "most_recent_active_service_month_3": {
     "VBA-21-526EZ-ARE": "month_3",
     "_types": "str"
   },
-  "month_6": {
+  "activation_month_6": {
     "VBA-21-526EZ-ARE": "month_6",
     "_types": "str"
   },
-  "month_7": {
+  "anticipated_month_7": {
     "VBA-21-526EZ-ARE": "month_7",
     "_types": "str"
   },
-  "month_8": {
+  "confinement_month_8": {
     "VBA-21-526EZ-ARE": "month_8",
     "_types": "str"
   },
-  "month_9": {
+  "activation_month_9": {
     "VBA-21-526EZ-ARE": "month_9",
     "_types": "str"
   },
@@ -2555,11 +2555,11 @@
     "vba-20-0995-are": "signature_of_the_second_witness",
     "_types": "signature"
   },
-  "since_9112001_no": {
+  "did_you_serve_since_9112001_no": {
     "VBA-21-526EZ-ARE": "since_9112001_no",
     "_types": "checkbox"
   },
-  "since_9112001_yes": {
+  "did_you_serve_since_9112001_yes": {
     "VBA-21-526EZ-ARE": "since_9112001_yes",
     "_types": "checkbox"
   },
@@ -2691,31 +2691,31 @@
     "VBA-21-526EZ-ARE": "when_were_you_exposed_to_year",
     "_types": "str"
   },
-  "year_10": {
+  "confinement_year_10": {
     "VBA-21-526EZ-ARE": "year_10",
     "_types": "str"
   },
-  "year_11": {
+  "confinement_year_11": {
     "VBA-21-526EZ-ARE": "year_11",
     "_types": "str"
   },
-  "year_3": {
+  "most_recent_active_service_year_3": {
     "VBA-21-526EZ-ARE": "year_3",
     "_types": "str"
   },
-  "year_6": {
+  "activation_year_6": {
     "VBA-21-526EZ-ARE": "year_6",
     "_types": "str"
   },
-  "year_7": {
+  "activation_year_7": {
     "VBA-21-526EZ-ARE": "year_7",
     "_types": "str"
   },
-  "year_8": {
+  "confinement_year_8": {
     "VBA-21-526EZ-ARE": "year_8",
     "_types": "str"
   },
-  "year_9": {
+  "confinement_year_9": {
     "VBA-21-526EZ-ARE": "year_9",
     "_types": "str"
   },

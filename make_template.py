@@ -60,6 +60,8 @@ ai_genareted_fields = [
 ]
 
 
+
+
 # Auto value field filling function (main helper function)
 def auto_value_field(temp_template):
     """ Auto fill certain fields with predefined values like current date etc. """
