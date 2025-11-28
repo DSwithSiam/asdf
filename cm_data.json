@@ -2764,6 +2764,10 @@
   "iii_12_other_description": {
     "vba-21-0781-are": "iii_12_other_description",
     "_types": "str"
+  },
+  "I_agree_to_receive_electronic_correspondence_from_VA_in_regards_to_my_claim": {
+    "VBA-21-0966-ARE": "I_agree_to_receive_electronic_correspondence_from_VA_in_regards_to_my_claim",
+    "_types": "str"
   }
 
 

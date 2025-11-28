@@ -65,6 +65,7 @@ static_fields = [
     "VBA-21-526EZ-ARE" : "THE_TYPE_OF_CLAIM_PROGRAM_PROCESS_FDC_PROGRAM",
     "VBA-21-526EZ-ARE": "email_address_agree",
     "VBA-21-526EZ-ARE": "are_you_claiming_no",
+    "VBA-21-0966-ARE": "compensation",
     "vba-21-0781-are": "consent_04",
     "_type": "checkbox"
     },
@@ -80,6 +81,7 @@ signecher_fields = {
     "VBA-21-526EZ-ARE" : "veteranservice_member_signature_required",
     "vba-21-0781-are" : "16a_veteran_service_members_signature",
     "vba-21-4138-are":"signature_of_veteran_beneficiary_required",
+    "VBA-21-0966-ARE":"signature_of_veteran_agent",
     }
 
 
