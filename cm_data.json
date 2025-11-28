@@ -69,6 +69,7 @@
     "VBA-21-526EZ-ARE": "dob_day",
     "VBA-21-0966-ARE": "dob_day",
     "vba-20-0995-are": "dob_day_1",
+    "vba-20-0995-are": "dob_day_2",
     "_types": "str"
   },
   "veterans_dob_year": {
@@ -128,7 +129,7 @@
     "_types": "str"
   },
   "veterans_mailing_address": {
-    "vba-21-0781-are": "",
+    
     "vba-21-4138-are": "mailing_address",
     "VBA-21-526EZ-ARE": "current_mailing_address",
     "VBA-21-0966-ARE": "mailing_address",
@@ -136,7 +137,7 @@
     "_types": "str"
   },
   "veterans_city": {
-    "vba-21-0781-are": "",
+    
     "vba-21-4138-are": "city",
     "VBA-21-526EZ-ARE": "city_1",
     "VBA-21-0966-ARE": "city",
@@ -144,7 +145,7 @@
     "_types": "str"
   },
   "veterans_state": {
-    "vba-21-0781-are": "",
+    
     "vba-21-4138-are": "state_province",
     "VBA-21-526EZ-ARE": "state_province_1",
     "VBA-21-0966-ARE": "state_province_1",
@@ -152,7 +153,7 @@
     "_types": "str"
   },
   "veterans_country": {
-    "vba-21-0781-are": "",
+    
     "vba-21-4138-are": "country",
     "VBA-21-526EZ-ARE": "country_1",
     "VBA-21-0966-ARE": "country",
@@ -160,7 +161,7 @@
     "_types": "str"
   },
   "veterans_zip_1": {
-    "vba-21-0781-are": "",
+    
     "vba-21-4138-are": "zip_code_postal_code_1",
     "VBA-21-526EZ-ARE": "zip_code_postal_code_1",
     "VBA-21-0966-ARE": "zip_code_postal_code_1",
@@ -168,7 +169,7 @@
     "_types": "str"
   },
   "veterans_zip_2": {
-    "vba-21-0781-are": "",
+    
     "vba-21-4138-are": "zip_code_postal_code_2",
     "VBA-21-526EZ-ARE": "zip_code_postal_code_2",
     "VBA-21-0966-ARE": "zip_code_postal_code_2",
@@ -184,24 +185,16 @@
     "_types": "signature"
   },
   "currently_homeless_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "currently_homeless_yes",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "are_you_currently_homeless_or_at_risk_of_becoming_homeless_yes",
     "_types": "checkbox"
   },
   "currently_homeless_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "currently_homeless_no",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "are_you_currently_homeless_or_at_risk_of_becoming_homeless_no",
     "_types": "checkbox"
-
   },
   "veterans_apt_unit": {
-    "vba-21-0781-are": "",
     "vba-21-4138-are": "aptunit_number",
     "VBA-21-526EZ-ARE": "apt_unit_number_1",
     "VBA-21-0966-ARE": "aptunit_number_1",
@@ -209,5290 +202,2670 @@
     "_types": "str"
   },
   "veterans_new_address": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "new_address",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "mailing_address_2",
     "_types": "str"
   },
   "witness1_signature_image": {
     "vba-21-0781-are": "17a_signature_of_witness",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "signature_of_witness_note_only_sign_if_veteran_signed_in_item_33a_using_an_x",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "signature_of_the_first_witness",
     "_types": "signature"
   },
   "witness1_printed_name": {
     "vba-21-0781-are": "17b_printed_name_and_address_of_witness",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "printend_name_and_addrees_of_witness_34a",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "printed_name_first_witness"
   },
   "12_if_you_are_currently_a_va_employee_check_the_box_includes_work_studyinternship_if_you_are_not_a_va_employee_skip_to_12_if_you_are_currently_a_va_employee_check_the_box_includes_work_studyinternship_if_you_are_not_a_va_employee_skip_to_section_ii_if_applicableii_if_applicable": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "12_if_you_are_currently_a_va_employee_check_the_box_includes_work_studyinternship_if_you_are_not_a_va_employee_skip_to_12_if_you_are_currently_a_va_employee_check_the_box_includes_work_studyinternship_if_you_are_not_a_va_employee_skip_to_section_ii_if_applicableii_if_applicable",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "13c_name_and_location_of_the_treatment_facility_row1": {
     "vba-21-0781-are": "13c_name_and_location_of_the_treatment_facility_row1",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "13c_name_and_location_of_the_treatment_facility_row2": {
     "vba-21-0781-are": "13c_name_and_location_of_the_treatment_facility_row2",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "13c_name_and_location_of_the_treatment_facility_row3": {
     "vba-21-0781-are": "13c_name_and_location_of_the_treatment_facility_row3",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "14a_are_you_currently_homeless_if_yes_complete_item_14b_regarding_your_living_situation_yes_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "14a_are_you_currently_homeless_if_yes_complete_item_14b_regarding_your_living_situation_yes_no",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "15e_if_you_were_exposed_multiple_times_please_provide_all_additional_dates_and_locations_of_potential_exposure": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "15e_if_you_were_exposed_multiple_times_please_provide_all_additional_dates_and_locations_of_potential_exposure",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "16b_date_signed_day": {
     "vba-21-0781-are": "16b_date_signed_day",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "signature_day"
   },
   "16b_date_signed_month": {
     "vba-21-0781-are": "16b_date_signed_month",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "signature_month"
   },
   "16b_date_signed_year": {
     "vba-21-0781-are": "16b_date_signed_year",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "signature_year"
   },
   "18a_signature_of_witness": {
     "vba-21-0781-are": "18a_signature_of_witness",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "signature"
   },
   "18b_list_the_other_names_you_served_under": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "18b_list_the_other_names_you_served_under",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "18b_printed_name_and_address_of_witness": {
     "vba-21-0781-are": "18b_printed_name_and_address_of_witness",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "19b_component_active": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "19b_component_active",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "19b_component_national_guard": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "19b_component_national_guard",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "19b_component_reserve": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "19b_component_reserve",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "19b_date_signed_day": {
     "vba-21-0781-are": "19b_date_signed_day",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "19b_date_signed_month": {
     "vba-21-0781-are": "19b_date_signed_month",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "19b_date_signed_year": {
     "vba-21-0781-are": "19b_date_signed_year",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "20a_are_you_currently_homeless_or_at_risk_of_becoming_homeless_if_yes_complete_items_20b_through_20d_regarding_your_living_situation_yes_no_if_no_skip_to_item_21": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "20a_are_you_currently_homeless_or_at_risk_of_becoming_homeless_if_yes_complete_items_20b_through_20d_regarding_your_living_situation_yes_no_if_no_skip_to_item_21",
     "_types": "str"
   },
   "20a_poa_authorized_representatives_signature": {
     "vba-21-0781-are": "20a_poa_authorized_representatives_signature",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "signature"
   },
   "20b_date_signed_day": {
     "vba-21-0781-are": "20b_date_signed_day",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "20b_date_signed_month": {
     "vba-21-0781-are": "20b_date_signed_month",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "20b_date_signed_year": {
     "vba-21-0781-are": "20b_date_signed_year",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "20c_accreditation_number": {
     "vba-21-0781-are": "20c_accreditation_number",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "20d_date_last_submitted_day": {
     "vba-21-0781-are": "20d_date_last_submitted_day",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "20d_date_last_submitted_month": {
     "vba-21-0781-are": "20d_date_last_submitted_month",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "20d_date_last_submitted_year": {
     "vba-21-0781-are": "20d_date_last_submitted_year",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "20d_from_day_4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "20d_from_day_4",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "20d_from_month_4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "20d_from_month_4",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "20d_from_year_4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "20d_from_year_4",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "20d_to_day_4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "20d_to_day_4",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "20d_to_month_4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "20d_to_month_4",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "20d_to_year_4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "20d_to_year_4",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "21a_the_reserves_or_national_guard": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "21a_the_reserves_or_national_guard",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "21c_from_day_5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "21c_from_day_5",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "21c_from_month_5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "21c_from_month_5",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "21c_from_year_5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "21c_from_year_5",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "21c_to_day_5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "21c_to_day_5",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "21c_to_month_5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "21c_to_month_5",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "21c_to_year_5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "21c_to_year_5",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "21d_current_or_last_assigned_name_and_address_of_unit": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "21d_current_or_last_assigned_name_and_address_of_unit",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "21e_current_or_assigned_phone_number_of_unit_include_area_code": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "21e_current_or_assigned_phone_number_of_unit_include_area_code",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "21f_training_pay_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "21f_training_pay_no",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "21f_training_pay_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "21f_training_pay_yes",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "22a_reserves_2_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "22a_reserves_2_no",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "22a_reserves_2_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "22a_reserves_2_yes",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "22b_component_national_guard_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "22b_component_national_guard_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "22b_component_reserves_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "22b_component_reserves_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "22b_day_6": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "22b_day_6",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "22b_month_6": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "22b_month_6",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "22b_name_and_location_of_the_treatment_facilityrow1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "22b_name_and_location_of_the_treatment_facilityrow1",
     "_types": "str"
   },
   "22b_name_and_location_of_the_treatment_facilityrow1_sn": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "22b_name_and_location_of_the_treatment_facilityrow1_sn",
     "_types": "str"
   },
   "22b_name_and_location_of_the_treatment_facilityrow2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "22b_name_and_location_of_the_treatment_facilityrow2",
     "_types": "str"
   },
   "22b_name_and_location_of_the_treatment_facilityrow2_sn": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "22b_name_and_location_of_the_treatment_facilityrow2_sn",
     "_types": "str"
   },
   "22b_name_and_location_of_the_treatment_facilityrow3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "22b_name_and_location_of_the_treatment_facilityrow3",
     "_types": "str"
   },
   "22b_name_and_location_of_the_treatment_facilityrow3_sn": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "22b_name_and_location_of_the_treatment_facilityrow3_sn",
     "_types": "str"
   },
   "22b_year_6": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "22b_year_6",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
-  
   "22c_day_7": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "22c_day_7",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "22c_month_7": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "22c_month_7",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "22c_year_7": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "22c_year_7",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "24C_branch_of_service_airforce": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "24C_branch_of_service_airforce",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "24C_branch_of_service_army": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "24C_branch_of_service_army",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "24C_branch_of_service_costguard": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "24C_branch_of_service_costguard",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "24C_branch_of_service_marinecorp": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "24C_branch_of_service_marinecorp",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "24C_branch_of_service_navy": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "24C_branch_of_service_navy",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "24C_branch_of_service_navy_corps": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "24C_branch_of_service_navy_corps",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "24C_branch_of_service_noaa": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "24C_branch_of_service_noaa",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "24C_branch_of_service_space_force": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "24C_branch_of_service_space_force",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "24C_branch_of_service_usphs": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "24C_branch_of_service_usphs",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "24D_monthly_amount_1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "24D_monthly_amount_1",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "24D_monthly_amount_3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "24D_monthly_amount_3",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "25b_date_signed_day": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "25b_date_signed_day",
     "_types": "signature_day"
   },
   "25b_date_signed_month": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "25b_date_signed_month",
     "_types": "signature_month"
   },
   "25b_date_signed_year": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "25b_date_signed_year",
     "_types": "signature_year"
   },
   "27C_branch_of_service_airforce": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "27C_branch_of_service_airforce",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "27C_branch_of_service_army": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "27C_branch_of_service_army",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "27C_branch_of_service_costguard": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "27C_branch_of_service_costguard",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "27C_branch_of_service_marine_corps": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "27C_branch_of_service_marine_corps",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "27C_branch_of_service_marinecorps": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "27C_branch_of_service_marinecorps",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "27C_branch_of_service_navy": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "27C_branch_of_service_navy",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "27C_branch_of_service_noaa": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "27C_branch_of_service_noaa",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "27C_branch_of_service_space_force": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "27C_branch_of_service_space_force",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "27C_branch_of_service_usphs": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "27C_branch_of_service_usphs",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "28b_date_signed_day": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "28b_date_signed_day",
     "_types": "str"
   },
   "28b_date_signed_month": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "28b_date_signed_month",
     "_types": "str"
   },
   "28b_date_signed_year": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "28b_date_signed_year",
     "_types": "str"
   },
   "29b_date_signed_day": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "29b_date_signed_day",
     "_types": "str"
   },
   "29b_date_signed_month": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "29b_date_signed_month",
     "_types": "str"
   },
   "29b_date_signed_year": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "29b_date_signed_year",
     "_types": "str"
   },
   "35a_signature_of_witness_note_only_sign_if_veteran_signed_in_item_33a_using_an_x": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "35a_signature_of_witness_note_only_sign_if_veteran_signed_in_item_33a_using_an_x",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "signature"
   },
   "36a_alternate_signer_signature_required": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "36a_alternate_signer_signature_required",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "signature"
   },
   "37a_poaauthorized_representative_signature": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "37a_poaauthorized_representative_signature",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "signature"
   },
   "International_Telephone_Number_If_Applicable": {
     "vba-21-0781-are": "International_Telephone_Number_If_Applicable",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "signature"
   },
   "Other_Specify": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "Other_Specify",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "SOC_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "SOC_2",
     "_types": "str"
   },
   "SOC_3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "SOC_3",
     "_types": "str"
   },
   "SOC_4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "SOC_4",
     "_types": "str"
   },
   "SOC_5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "SOC_5",
     "_types": "str"
   },
   "SOC_6": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "SOC_6",
     "_types": "str"
   },
   "SOC_7": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "SOC_7",
     "_types": "str"
   },
   "SOC_8": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "SOC_8",
     "_types": "str"
   },
   "SOC_9": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "SOC_9",
     "_types": "str"
   },
   "Statement_of_the_Case_SOC": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "Statement_of_the_Case_SOC",
     "_types": "str"
   },
   "THE_TYPE_OF_CLAIM_PROGRAM_PROCESS_BDD_PROGRAM_CLAIM": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "THE_TYPE_OF_CLAIM_PROGRAM_PROCESS_BDD_PROGRAM_CLAIM",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "THE_TYPE_OF_CLAIM_PROGRAM_PROCESS_FDC_PROGRAM": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "THE_TYPE_OF_CLAIM_PROGRAM_PROCESS_FDC_PROGRAM",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "THE_TYPE_OF_CLAIM_PROGRAM_PROCESS_IDES": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "THE_TYPE_OF_CLAIM_PROGRAM_PROCESS_IDES",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "THE_TYPE_OF_CLAIM_PROGRAM_PROCESS_STANDARD_CLAIM_PROCESS": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "THE_TYPE_OF_CLAIM_PROGRAM_PROCESS_STANDARD_CLAIM_PROCESS",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "a_chaplain_or_clergy": {
     "vba-21-0781-are": "a_chaplain_or_clergy",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "a_counseling_facility_or_health_clinic": {
     "vba-21-0781-are": "a_counseling_facility_or_health_clinic",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "a_enter_the_disability_treated_and_namelocation_of_the_treatment_facilityrow1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "a_enter_the_disability_treated_and_namelocation_of_the_treatment_facilityrow1",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "a_enter_the_disability_treated_and_namelocation_of_the_treatment_facilityrow2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "a_enter_the_disability_treated_and_namelocation_of_the_treatment_facilityrow2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "a_enter_the_disability_treated_and_namelocation_of_the_treatment_facilityrow3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "a_enter_the_disability_treated_and_namelocation_of_the_treatment_facilityrow3",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "a_faculty_member": {
     "vba-21-0781-are": "a_faculty_member",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "a_rape_crisis_center_or_center_for_domestic_abuse": {
     "vba-21-0781-are": "a_rape_crisis_center_or_center_for_domestic_abuse",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "accreditation_number": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "accreditation_number",
     "_types": "str"
   },
   "adress_changes_PERMANENT": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "adress_changes_PERMANENT",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "alternate_signer_signature": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "alternate_signer_signature",
     "_types": "signature"
   },
   "alternate_signers_signature": {
     "vba-21-0781-are": "alternate_signers_signature",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "signature"
   },
   "amount_received_1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "amount_received_1",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "amount_received_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "amount_received_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "anticipated_separation_1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "anticipated_separation_1",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "anticipated_separation_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "anticipated_separation_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow1",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow10": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow10",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow10_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow10_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow11": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow11",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow11_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow11_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow12": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow12",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow12_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow12_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow13": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow13",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow13_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow13_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow14": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow14",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow14_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow14_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow15": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow15",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow15_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow15_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow16_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow16_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow17_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow17_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow18_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow18_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow19_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow19_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow1_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow1_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow20_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow20_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow2_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow2_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow3",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow3_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow3_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow4",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow4_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow4_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow5",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow5_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow5_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow6": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow6",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow6_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow6_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow7": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow7",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow7_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow7_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow8": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow8",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow8_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow8_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow9": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow9",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "approximate_date_disabilityies_began_or_worsenedrow9_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "approximate_date_disabilityies_began_or_worsenedrow9_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "apt_unit_number_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "apt_unit_number_2",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "apt_unit_number_2",
     "_types": "str"
   },
   "are_you_claiming_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "are_you_claiming_no",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "are_you_claiming_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "are_you_claiming_yes",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "are_you_currently_homeless_or_at_risk_of_becoming_homeless": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "are_you_currently_homeless_or_at_risk_of_becoming_homeless",
     "_types": "str"
   },
   "been_exposed_asbestos": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "been_exposed_asbestos",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "been_exposed_contaminated_water": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "been_exposed_contaminated_water",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "been_exposed_military_occupational_specialty": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "been_exposed_military_occupational_specialty",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "been_exposed_mustard_gas": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "been_exposed_mustard_gas",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "been_exposed_other": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "been_exposed_other",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "been_exposed_radiation": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "been_exposed_radiation",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "been_exposed_shad": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "been_exposed_shad",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "behavioral_changes_experienced_following_the_traumatic_event": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "behavioral_changes_experienced_following_the_traumatic_event_01": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event_01",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "behavioral_changes_experienced_following_the_traumatic_event_02": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event_02",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "behavioral_changes_experienced_following_the_traumatic_event_03": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event_03",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "behavioral_changes_experienced_following_the_traumatic_event_04": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event_04",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "behavioral_changes_experienced_following_the_traumatic_event_05": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event_05",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "behavioral_changes_experienced_following_the_traumatic_event_06": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event_06",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "behavioral_changes_experienced_following_the_traumatic_event_07": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event_07",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "behavioral_changes_experienced_following_the_traumatic_event_08": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event_08",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "benefit_type_COMPENSATION": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "benefit_type_COMPENSATION",
     "_types": "checkbox"
   },
   "benefit_type_EDUCATION": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "benefit_type_EDUCATION",
     "_types": "checkbox"
   },
   "benefit_type_LOAN_GUARANTY": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "benefit_type_LOAN_GUARANTY",
     "_types": "checkbox"
   },
   "benefit_type_PENSION_DIC_SURVIVORS_BENEFITS": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "benefit_type_PENSION_DIC_SURVIVORS_BENEFITS",
     "_types": "checkbox"
   },
   "benefit_type_VETERANS_HEALTH_ADMINISTRATION": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "benefit_type_VETERANS_HEALTH_ADMINISTRATION",
     "_types": "checkbox"
   },
   "benefit_type_VETERAN_READINESS_AND_EMPLOYMENT": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "benefit_type_VETERAN_READINESS_AND_EMPLOYMENT",
     "_types": "checkbox"
   },
   "benefit_type_fiduciary": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "benefit_type_fiduciary",
     "_types": "checkbox"
   },
   "benefit_type_life_insurance": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "benefit_type_life_insurance",
     "_types": "checkbox"
   },
   "benefit_type_natinal_crmetery": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "benefit_type_natinal_crmetery",
     "_types": "checkbox"
   },
   "branch_of_service": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "branch_of_service",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "branch_of_service_3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "branch_of_service_3",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "branch_of_service_airforce": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "branch_of_service_airforce",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "branch_of_service_army": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "branch_of_service_army",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "branch_of_service_costguard": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "branch_of_service_costguard",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "branch_of_service_marinecorp": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "branch_of_service_marinecorp",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "branch_of_service_navy": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "branch_of_service_navy",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "branch_of_service_noaa": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "branch_of_service_noaa",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "branch_of_service_spaceforce": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "branch_of_service_spaceforce",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "branch_of_service_usphs": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "branch_of_service_usphs",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "brief_description_of_the_traumatic_events_number_01": {
     "vba-21-0781-are": "brief_description_of_the_traumatic_events_number_01",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "brief_description_of_the_traumatic_events_number_02": {
     "vba-21-0781-are": "brief_description_of_the_traumatic_events_number_02",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "brief_description_of_the_traumatic_events_number_03": {
     "vba-21-0781-are": "brief_description_of_the_traumatic_events_number_03",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "brief_description_of_the_traumatic_events_number_04": {
     "vba-21-0781-are": "brief_description_of_the_traumatic_events_number_04",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "brief_description_of_the_traumatic_events_number_5": {
     "vba-21-0781-are": "brief_description_of_the_traumatic_events_number_5",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "brief_description_of_the_traumatic_events_number_6": {
     "vba-21-0781-are": "brief_description_of_the_traumatic_events_number_6",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "c_as_needed_list_any_additional_behavioral_changes_following_the_inservice_personal_traumatic_events_that_were_not_listed_in_item_10a": {
     "vba-21-0781-are": "c_as_needed_list_any_additional_behavioral_changes_following_the_inservice_personal_traumatic_events_that_were_not_listed_in_item_10a",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "changes_in_eating_habits_such_as_overeating_or_undereating_or_significant_changes_in_weight": {
     "vba-21-0781-are": "changes_in_eating_habits_such_as_overeating_or_undereating_or_significant_changes_in_weight",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "changes_in_or_breakup_of_a_significant_relationship": {
     "vba-21-0781-are": "changes_in_or_breakup_of_a_significant_relationship",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "changes_in_or_breakup_of_a_significant_relationships": {
     "vba-21-0781-are": "changes_in_or_breakup_of_a_significant_relationships",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "changes_in_performance_or_performance_evaluations": {
     "vba-21-0781-are": "changes_in_performance_or_performance_evaluations",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
-  "city_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
+  "claimant_city_2": {
     "VBA-21-526EZ-ARE": "city_2",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "city_2",
     "_types": "checkbox"
   },
   "civilian_police_reports": {
     "vba-21-0781-are": "civilian_police_reports",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "claimant_aptunit_number": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimant_aptunit_number",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimant_city": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimant_city",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimant_country": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimant_country",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimant_dob_day": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "claimant_dob_day",
     "_types": "str"
   },
   "claimant_dob_month": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "claimant_dob_month",
     "_types": "str"
   },
   "claimant_dob_year": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "claimant_dob_year",
     "_types": "str"
   },
   "claimant_email_address_1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimant_email_address_1",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimant_email_address_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimant_email_address_2",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimant_first_name": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "claimant_first_name",
     "_types": "str"
   },
   "claimant_international_phone_number": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimant_international_phone_number",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimant_last_name": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "claimant_last_name",
     "_types": "str"
   },
   "claimant_mailing_address": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimant_mailing_address",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimant_middle_name": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "claimant_middle_name",
     "_types": "str"
   },
   "claimant_social_security_number_part1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimant_social_security_number_part1",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimant_social_security_number_part2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimant_social_security_number_part2",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimant_social_security_number_part21": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "claimant_social_security_number_part21",
     "_types": "str"
   },
   "claimant_social_security_number_part22": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "claimant_social_security_number_part22",
     "_types": "str"
   },
   "claimant_social_security_number_part23": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "claimant_social_security_number_part23",
     "_types": "str"
   },
   "claimant_social_security_number_part3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimant_social_security_number_part3",
-    "vba-20-0995-are": "",
-    "_types": "str"
-  },
-  "claimant_state_province": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "claimant_state_province",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimant_telephone_line_number": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimant_telephone_line_number",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimant_telephone_number_area_code": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimant_telephone_number_area_code",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimant_telephone_number_operator_code": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimant_telephone_number_operator_code",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimant_va_file_number": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimant_va_file_number",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimant_zip_code_postal_code_1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimant_zip_code_postal_code_1",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimant_zip_code_postal_code_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimant_zip_code_postal_code_2",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimants_dob_day": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimants_dob_day",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimants_dob_month": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimants_dob_month",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimants_dob_year": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimants_dob_year",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimants_first_name": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimants_first_name",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimants_last_name": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimants_last_name",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "claimants_middle_name": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "claimants_middle_name",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "combat_tramatic_event": {
     "vba-21-0781-are": "combat_tramatic_event",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "community_care": {
     "vba-21-0781-are": "community_care",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "community_care_paid_for_by_va": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "community_care_paid_for_by_va",
     "_types": "checkbox"
   },
   "component_national_guard_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "component_national_guard_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "component_reserves_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "component_reserves_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "consent_01": {
     "vba-21-0781-are": "consent_01",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "consent_02": {
     "vba-21-0781-are": "consent_02",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "consent_03": {
     "vba-21-0781-are": "consent_03",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "consent_04": {
     "vba-21-0781-are": "consent_04",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "contact_telephone_line_number": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "contact_telephone_line_number",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "contact_telephone_number_area_code": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "contact_telephone_number_area_code",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "contact_telephone_number_operator_code": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "contact_telephone_number_operator_code",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
-  "country_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
+  "claimant_country_2": {
     "VBA-21-526EZ-ARE": "country_2",
     "VBA-21-0966-ARE": "country_2",
     "vba-20-0995-are": "country_2",
     "_types": "str"
   },
   "current_disability_row_10_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_10_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_11_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_11_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_12_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_12_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_13_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_13_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_14_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_14_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_15_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_15_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_16_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_16_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_17_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_17_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_18_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_18_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_19_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_19_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_1_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_1_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_20_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_20_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_2_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_2_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_3_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_3_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_4_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_4_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_5_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_5_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_6_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_6_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_7_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_7_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_8_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_8_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disability_row_9_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disability_row_9_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disabilityiesrow1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disabilityiesrow1",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disabilityiesrow10": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disabilityiesrow10",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disabilityiesrow11": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disabilityiesrow11",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disabilityiesrow12": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disabilityiesrow12",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disabilityiesrow13": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disabilityiesrow13",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disabilityiesrow14": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disabilityiesrow14",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disabilityiesrow15": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disabilityiesrow15",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disabilityiesrow2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disabilityiesrow2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disabilityiesrow3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disabilityiesrow3",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disabilityiesrow4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disabilityiesrow4",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disabilityiesrow5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disabilityiesrow5",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disabilityiesrow6": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disabilityiesrow6",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disabilityiesrow7": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disabilityiesrow7",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disabilityiesrow8": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disabilityiesrow8",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "current_disabilityiesrow9": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "current_disabilityiesrow9",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "date_last_va_from_21_22_day": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_last_va_from_21_22_day",
     "_types": "str"
   },
   "date_last_va_from_21_22_month": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_last_va_from_21_22_month",
     "_types": "str"
   },
   "date_last_va_from_21_22_year": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_last_va_from_21_22_year",
     "_types": "str"
   },
   "date_of_treatment_month1": {
     "vba-21-0781-are": "date_of_treatment_month1",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_treatment_month1",
     "_types": "str"
   },
   "date_of_treatment_month2": {
     "vba-21-0781-are": "date_of_treatment_month2",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_treatment_month2",
     "_types": "str"
   },
   "date_of_treatment_month3": {
     "vba-21-0781-are": "date_of_treatment_month3",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_treatment_month3",
     "_types": "str"
   },
   "date_of_treatment_month_1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "date_of_treatment_month_1",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "date_of_treatment_month_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "date_of_treatment_month_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "date_of_treatment_month_3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "date_of_treatment_month_3",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "date_of_treatment_year1": {
     "vba-21-0781-are": "date_of_treatment_year1",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_treatment_year1",
     "_types": "str"
   },
   "date_of_treatment_year2": {
     "vba-21-0781-are": "date_of_treatment_year2",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_treatment_year2",
     "_types": "str"
   },
   "date_of_treatment_year3": {
     "vba-21-0781-are": "date_of_treatment_year3",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_treatment_year3",
     "_types": "str"
   },
   "date_of_treatment_year_1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "date_of_treatment_year_1",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "date_of_treatment_year_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "date_of_treatment_year_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "date_of_treatment_year_3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "date_of_treatment_year_3",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "date_of_va_decision_notice_day2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_day2",
     "_types": "str"
   },
   "date_of_va_decision_notice_day3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_day3",
     "_types": "str"
   },
   "date_of_va_decision_notice_day4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_day4",
     "_types": "str"
   },
   "date_of_va_decision_notice_day5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_day5",
     "_types": "str"
   },
   "date_of_va_decision_notice_day6": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_day6",
     "_types": "str"
   },
   "date_of_va_decision_notice_day7": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_day7",
     "_types": "str"
   },
   "date_of_va_decision_notice_day8": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_day8",
     "_types": "str"
   },
   "date_of_va_decision_notice_day9": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_day9",
     "_types": "str"
   },
   "date_of_va_decision_notice_day_1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_day_1",
     "_types": "str"
   },
   "date_of_va_decision_notice_month2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_month2",
     "_types": "str"
   },
   "date_of_va_decision_notice_month3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_month3",
     "_types": "str"
   },
   "date_of_va_decision_notice_month4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_month4",
     "_types": "str"
   },
   "date_of_va_decision_notice_month5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_month5",
     "_types": "str"
   },
   "date_of_va_decision_notice_month6": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_month6",
     "_types": "str"
   },
   "date_of_va_decision_notice_month7": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_month7",
     "_types": "str"
   },
   "date_of_va_decision_notice_month8": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_month8",
     "_types": "str"
   },
   "date_of_va_decision_notice_month9": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_month9",
     "_types": "str"
   },
   "date_of_va_decision_notice_month_1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_month_1",
     "_types": "str"
   },
   "date_of_va_decision_notice_year2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_year2",
     "_types": "str"
   },
   "date_of_va_decision_notice_year3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_year3",
     "_types": "str"
   },
   "date_of_va_decision_notice_year4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_year4",
     "_types": "str"
   },
   "date_of_va_decision_notice_year5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_year5",
     "_types": "str"
   },
   "date_of_va_decision_notice_year6": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_year6",
     "_types": "str"
   },
   "date_of_va_decision_notice_year7": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_year7",
     "_types": "str"
   },
   "date_of_va_decision_notice_year8": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_year8",
     "_types": "str"
   },
   "date_of_va_decision_notice_year9": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_year9",
     "_types": "str"
   },
   "date_of_va_decision_notice_year_1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "date_of_va_decision_notice_year_1",
     "_types": "str"
   },
   "date_signed_day": {
-    "vba-21-0781-are": "",
     "vba-21-4138-are": "date_signed_day",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "date_signed_day",
-    "vba-20-0995-are": "",
     "_types": "signature_day"
   },
   "date_signed_day_33b": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "date_signed_day_33b",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "signature_day"
   },
   "date_signed_day_36b": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "date_signed_day_36b",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "date_signed_day_37b": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "date_signed_day_37b",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "date_signed_month": {
-    "vba-21-0781-are": "",
     "vba-21-4138-are": "date_signed_month",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "date_signed_month",
-    "vba-20-0995-are": "",
     "_types": "signature_month"
   },
   "date_signed_month_33b": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "date_signed_month_33b",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "signature_month"
   },
   "date_signed_month_36b": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "date_signed_month_36b",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "date_signed_month_37b": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "date_signed_month_37b",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "date_signed_year": {
-    "vba-21-0781-are": "",
     "vba-21-4138-are": "date_signed_year",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "date_signed_year",
-    "vba-20-0995-are": "",
     "_types": "signature_year"
   },
   "date_signed_year_33b": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "date_signed_year_33b",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "signature_year"
   },
   "date_signed_year_36b": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "date_signed_year_36b",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "date_signed_year_37b": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "date_signed_year_37b",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "dates_the_traumatic_events_occured_month_number_01": {
     "vba-21-0781-are": "dates_the_traumatic_events_occured_month_number_01",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "dates_the_traumatic_events_occured_month_number_2": {
     "vba-21-0781-are": "dates_the_traumatic_events_occured_month_number_2",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "dates_the_traumatic_events_occured_month_number_3": {
     "vba-21-0781-are": "dates_the_traumatic_events_occured_month_number_3",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "dates_the_traumatic_events_occured_month_number_4": {
     "vba-21-0781-are": "dates_the_traumatic_events_occured_month_number_4",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "dates_the_traumatic_events_occured_month_number_5": {
     "vba-21-0781-are": "dates_the_traumatic_events_occured_month_number_5",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "dates_the_traumatic_events_occured_month_number_6": {
     "vba-21-0781-are": "dates_the_traumatic_events_occured_month_number_6",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "dates_the_traumatic_events_occured_year_number_1": {
     "vba-21-0781-are": "dates_the_traumatic_events_occured_year_number_1",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "dates_the_traumatic_events_occured_year_number_2": {
     "vba-21-0781-are": "dates_the_traumatic_events_occured_year_number_2",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "dates_the_traumatic_events_occured_year_number_3": {
     "vba-21-0781-are": "dates_the_traumatic_events_occured_year_number_3",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "dates_the_traumatic_events_occured_year_number_4": {
     "vba-21-0781-are": "dates_the_traumatic_events_occured_year_number_4",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "dates_the_traumatic_events_occured_year_number_5": {
     "vba-21-0781-are": "dates_the_traumatic_events_occured_year_number_5",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "dates_the_traumatic_events_occured_year_number_6": {
     "vba-21-0781-are": "dates_the_traumatic_events_occured_year_number_6",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "day_10": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "day_10",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "day_11": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "day_11",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "day_3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "day_3",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "day_6": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "day_6",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "day_7": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "day_7",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "day_8": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "day_8",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "day_9": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "day_9",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "department_of_defense_dod_military_treatment_facilityies_mtf": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "department_of_defense_dod_military_treatment_facilityies_mtf",
     "_types": "checkbox"
   },
   "department_of_defense_military_treatment_facility": {
     "vba-21-0781-are": "department_of_defense_military_treatment_facility",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "did_you_serve_gulf_war_hazard_location_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "did_you_serve_gulf_war_hazard_location_no",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "did_you_serve_gulf_war_hazard_location_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "did_you_serve_gulf_war_hazard_location_yes",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "disciplinary_or_legal_difficulties": {
     "vba-21-0781-are": "disciplinary_or_legal_difficulties",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
-    "_types": "str"
-  },
-  "dob_day_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "dob_day_2",
     "_types": "str"
   },
   "dob_month_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "dob_month_2",
     "_types": "str"
   },
   "dob_year_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "dob_year_2",
     "_types": "str"
   },
   "don't_have_date_1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "don't_have_date_1",
     "_types": "checkbox"
   },
   "don't_have_date_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "don't_have_date_2",
     "_types": "checkbox"
   },
   "don't_have_date_3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "don't_have_date_3",
     "_types": "checkbox"
   },
   "dont_have_date1": {
     "vba-21-0781-are": "dont_have_date1",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "dont_have_date2": {
     "vba-21-0781-are": "dont_have_date2",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "dont_have_date3": {
     "vba-21-0781-are": "dont_have_date3",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "dont_have_date_1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "dont_have_date_1",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "dont_have_date_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "dont_have_date_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "dont_have_date_3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "dont_have_date_3",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "economic_or_social_behavioral_changes": {
     "vba-21-0781-are": "economic_or_social_behavioral_changes",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "economics_or_social_behavioral_changes": {
     "vba-21-0781-are": "economics_or_social_behavioral_changes",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "email_address_2": {
-    "vba-21-0781-are": "",
     "vba-21-4138-are": "email_address_2",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "email_address_2",
     "vba-20-0995-are": "email_address_2",
     "_types": "str"
   },
   "email_address_3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "email_address_3",
     "_types": "str"
   },
   "email_address_4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "email_address_4",
     "_types": "str"
   },
   "email_address_agree": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "email_address_agree",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "email_address_number_02": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "email_address_number_02",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "enter_international_phone_number": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "enter_international_phone_number",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "episodes_of_depression_panic_attacks_or_anxiety": {
     "vba-21-0781-are": "episodes_of_depression_panic_attacks_or_anxiety",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "ever_filed_va_claim_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "ever_filed_va_claim_no",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "ever_filed_va_claim_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "ever_filed_va_claim_yes",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "ever_received_separation_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "ever_received_separation_no",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "ever_received_separation_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "ever_received_separation_yes",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "exit_date_day": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "exit_date_day",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "exit_date_month": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "exit_date_month",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "exit_date_year": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "exit_date_year",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow1",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow10": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow10",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow10_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow10_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow11": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow11",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow11_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow11_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow12": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow12",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow12_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow12_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow13": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow13",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow13_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow13_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow14": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow14",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow14_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow14_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow15": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow15",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow15_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow15_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow16_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow16_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow17_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow17_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow18_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow18_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow19_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow19_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow1_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow1_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow20_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow20_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow2_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow2_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow3",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow3_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow3_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow4",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow4_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow4_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow5",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow5_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow5_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow6": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow6",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow6_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow6_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow7": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow7",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow7_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow7_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow8": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow8",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow8_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow8_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow9": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow9",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow9_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow9_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "family_member": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "family_member",
     "_types": "checkbox"
   },
   "family_members_or_roommates": {
     "vba-21-0781-are": "family_members_or_roommates",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "fellow_service_member": {
     "vba-21-0781-are": "fellow_service_member",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "from_day_4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "from_day_4",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "from_day_5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "from_day_5",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "from_month_4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "from_month_4",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "from_month_5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "from_month_5",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "from_year_4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "from_year_4",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "from_year_5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "from_year_5",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "have_ever_filed_a_va_claim_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "have_ever_filed_a_va_claim_no",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "have_ever_filed_a_va_claim_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "have_ever_filed_a_va_claim_yes",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "have_you-received_treatment_related_to_the_impact_of_the_traumatic_event_listed_in_item-9a_01": {
     "vba-21-0781-are": "have_you-received_treatment_related_to_the_impact_of_the_traumatic_event_listed_in_item-9a_01",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "have_you-received_treatment_related_to_the_impact_of_the_traumatic_event_listed_in_item-9a_02": {
     "vba-21-0781-are": "have_you-received_treatment_related_to_the_impact_of_the_traumatic_event_listed_in_item-9a_02",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "have_you_ever_field_a_claim_with_va_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "have_you_ever_field_a_claim_with_va_no",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "have_you_ever_field_a_claim_with_va_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "have_you_ever_field_a_claim_with_va_yes",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "herbicide_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "herbicide_no",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "herbicide_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "herbicide_yes",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "i_agree": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "i_agree",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "i_certify_that_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "i_certify_that_no",
     "_types": "str"
   },
   "i_certify_that_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "i_certify_that_yes",
     "_types": "checkbox"
   },
   "i_consent": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "i_consent",
     "_types": "checkbox"
   },
   "i_donot_consent": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "i_donot_consent",
     "_types": "checkbox"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow1",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow10": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow10",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow10_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow10_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow11": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow11",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow11_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow11_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow12": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow12",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow12_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow12_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow13": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow13",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow13_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow13_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow14": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow14",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow14_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow14_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow15": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow15",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow15_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow15_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow16_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow16_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow17_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow17_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow18_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow18_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow19_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow19_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow1_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow1_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow20_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow20_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow2_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow2_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow3",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow3_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow3_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow4",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow4_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow4_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow5",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow5_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow5_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow6": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow6",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow6_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow6_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow7": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow7",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow7_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow7_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow8": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow8",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow8_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow8_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow9": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow9",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow9_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow9_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "increased_decreased_use_of_leave": {
     "vba-21-0781-are": "increased_decreased_use_of_leave",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "increased_decreased_visits_to_a_healthcare_professional_counselor_or_treatment_facility": {
     "vba-21-0781-are": "increased_decreased_visits_to_a_healthcare_professional_counselor_or_treatment_facility",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "increased_decreased_visits_to_a_healthcare_professional_counselor_or_treatment_facility_checkbox": {
     "vba-21-0781-are": "increased_decreased_visits_to_a_healthcare_professional_counselor_or_treatment_facility_checkbox",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "increaseddecreased_use_of_alcohol_or_drugs": {
     "vba-21-0781-are": "increaseddecreased_use_of_alcohol_or_drugs",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "increaseddecreased_use_of_overthe_counter_medications": {
     "vba-21-0781-are": "increaseddecreased_use_of_overthe_counter_medications",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "increaseddecreased_use_of_prescription_medications": {
     "vba-21-0781-are": "increaseddecreased_use_of_prescription_medications",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "international_phone_number_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "international_phone_number_2",
     "_types": "str"
   },
   "international_phone_number_20d": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "international_phone_number_20d",
     "_types": "str"
   },
   "location_from_month": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "location_from_month",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "location_from_month2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "location_from_month2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "location_from_year": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "location_from_year",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "location_from_year2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "location_from_year2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "location_of_the_traumatic_events_number_1": {
     "vba-21-0781-are": "location_of_the_traumatic_events_number_1",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "location_of_the_traumatic_events_number_2": {
     "vba-21-0781-are": "location_of_the_traumatic_events_number_2",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "location_of_the_traumatic_events_number_3": {
     "vba-21-0781-are": "location_of_the_traumatic_events_number_3",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "location_of_the_traumatic_events_number_4": {
     "vba-21-0781-are": "location_of_the_traumatic_events_number_4",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "location_of_the_traumatic_events_number_5": {
     "vba-21-0781-are": "location_of_the_traumatic_events_number_5",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "location_of_the_traumatic_events_number_6": {
     "vba-21-0781-are": "location_of_the_traumatic_events_number_6",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "location_to_month": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "location_to_month",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "location_to_month2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "location_to_month2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "location_to_year": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "location_to_year",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "location_to_year2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "location_to_year2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "medical_reports_from_civilian_physicians": {
     "vba-21-0781-are": "medical_reports_from_civilian_physicians",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "military_retired_pay_in_future_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "military_retired_pay_in_future_no",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "military_retired_pay_in_future_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "military_retired_pay_in_future_yes",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "military_retired_pay_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "military_retired_pay_no",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "military_retired_pay_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "military_retired_pay_yes",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "month_10": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "month_10",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "month_11": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "month_11",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "month_3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "month_3",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "month_6": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "month_6",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "month_7": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "month_7",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "month_8": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "month_8",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "month_9": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "month_9",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "name_of_attorney_agent_or_veterans_service_organaization_vso_please_print": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "name_of_attorney_agent_or_veterans_service_organaization_vso_please_print",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "name_of_financial_institution": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "name_of_financial_institution",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "neither": {
     "vba-21-0781-are": "neither",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "next_30-days_leave_facility": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "next_30-days_leave_facility",
     "_types": "checkbox"
   },
   "next_30-days_lose_my_home": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "next_30-days_lose_my_home",
     "_types": "checkbox"
   },
   "none": {
     "vba-21-0781-are": "none",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "none_of_these_situations_apply_to_me": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "none_of_these_situations_apply_to_me",
     "_types": "checkbox"
   },
   "not_applicable_consent": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "not_applicable_consent",
     "_types": "checkbox"
   },
   "not_pay_me_va": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "not_pay_me_va",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "not_pay_me_va_com": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "not_pay_me_va_com",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "note_va_has_access_to_vamc_cboc_and_mtf_records_a_consent_form_is_not_needed_however_if_you_would_like_va_to_attempt_to_obtain_your_private_provider": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "note_va_has_access_to_vamc_cboc_and_mtf_records_a_consent_form_is_not_needed_however_if_you_would_like_va_to_attempt_to_obtain_your_private_provider",
     "_types": "str"
   },
   "other_specify": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "other_specify",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "other_specify",
     "_types": "checkbox"
   },
   "other_specify_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "other_specify_2",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "other_specify_2",
     "_types": "checkbox"
   },
   "other_specify_3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "other_specify_3",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "other_specify_below": {
     "vba-21-0781-are": "other_specify_below",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "other_traumatic_event": {
     "vba-21-0781-are": "other_traumatic_event",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "others_specify": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "others_specify",
     "_types": "str"
   },
   "payment_agent": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "payment_agent",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "payment_received_day": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "payment_received_day",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "payment_received_month": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "payment_received_month",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "payment_received_year": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "payment_received_year",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "personal_diaries_or_journals": {
     "vba-21-0781-are": "personal_diaries_or_journals",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "personal_traumatic_event_mst_no": {
     "vba-21-0781-are": "personal_traumatic_event_mst_no",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "personal_traumatic_event_mst_yes": {
     "vba-21-0781-are": "personal_traumatic_event_mst_yes",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "please_list_other_locations_where_you_served_if_not_listed_above": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "please_list_other_locations_where_you_served_if_not_listed_above",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "poa_authorized_representative_signature": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "poa_authorized_representative_signature",
     "_types": "signature"
   },
   "point_of_contact": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "point_of_contact",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "point_of_contact_name_of_person": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "point_of_contact_name_of_person",
     "_types": "str"
   },
   "point_of_contact_telephone_line_number": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "point_of_contact_telephone_line_number",
     "_types": "str"
   },
   "point_of_contact_telephone_number_area_code": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "point_of_contact_telephone_number_area_code",
     "_types": "str"
   },
   "point_of_contact_telephone_number_operator_code": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "point_of_contact_telephone_number_operator_code",
     "_types": "str"
   },
   "pregnancy_tests_around_the_time_of_the_traumatic_events": {
     "vba-21-0781-are": "pregnancy_tests_around_the_time_of_the_traumatic_events",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "pregnancy_tests_arround_the_time_of_the_traumatic_event": {
     "vba-21-0781-are": "pregnancy_tests_arround_the_time_of_the_traumatic_event",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "printed_address_second_witness": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "printed_address_second_witness",
     "_types": "str"
   },
   "printed_name_second_witness": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "printed_name_second_witness",
     "_types": "str"
   },
   "printend_name_and_addrees_of_witness_35a": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "printend_name_and_addrees_of_witness_35a",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "prisoner_of_war_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "prisoner_of_war_no",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "prisoner_of_war_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "prisoner_of_war_yes",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "private_health_care_provider_including_nonfederal_records": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "private_health_care_provider_including_nonfederal_records",
     "_types": "checkbox"
   },
   "private_helathcare_provider": {
     "vba-21-0781-are": "private_helathcare_provider",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "relationship_to_veteran_alternate_signer": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "relationship_to_veteran_alternate_signer",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "relationship_to_veteran_child": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "relationship_to_veteran_child",
     "vba-20-0995-are": "relationship_to_veteran_child",
     "_types": "checkbox"
   },
   "relationship_to_veteran_fiduciary": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "relationship_to_veteran_fiduciary",
     "vba-20-0995-are": "relationship_to_veteran_fiduciary",
     "_types": "checkbox"
   },
   "relationship_to_veteran_other": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "relationship_to_veteran_other",
     "vba-20-0995-are": "relationship_to_veteran_other",
     "_types": "checkbox"
   },
   "relationship_to_veteran_parent": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "relationship_to_veteran_parent",
     "_types": "checkbox"
   },
   "relationship_to_veteran_service_officer": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "relationship_to_veteran_service_officer",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "relationship_to_veteran_spouse": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "relationship_to_veteran_spouse",
     "vba-20-0995-are": "relationship_to_veteran_spouse",
     "_types": "checkbox"
   },
   "relationship_to_veteran_third_party": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "relationship_to_veteran_third_party",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "relationship_to_veteran_vso": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
     "VBA-21-0966-ARE": "relationship_to_veteran_vso",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "remarks_if_any": {
     "vba-21-0781-are": "remarks_if_any",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "request_for_a_change_in_occupational_series_or_duty_assignment": {
     "vba-21-0781-are": "request_for_a_change_in_occupational_series_or_duty_assignment",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "request_for_a_change_in_occupational_series_or_duty_assignment_checkbox": {
     "vba-21-0781-are": "request_for_a_change_in_occupational_series_or_duty_assignment_checkbox",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "retired_status_permanent_disability": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "retired_status_permanent_disability",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "retired_status_retired": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "retired_status_retired",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "retired_status_temporary_disability": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "retired_status_temporary_disability",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "revoke_consent": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "revoke_consent",
     "_types": "checkbox"
   },
   "risk_of_becoming_homeless_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "risk_of_becoming_homeless_no",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "risk_of_becoming_homeless_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "risk_of_becoming_homeless_yes",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "section_ii_remarks_continued_the_following_statement_is_made_in_connection_with_a_claim_for_benefits_in_the_case_of_the_abovenamed_veteranbeneficiaryrow1": {
-    "vba-21-0781-are": "",
     "vba-21-4138-are": "section_ii_remarks_continued_the_following_statement_is_made_in_connection_with_a_claim_for_benefits_in_the_case_of_the_abovenamed_veteranbeneficiaryrow1",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "section_ii_remarks_the_following_statement_is_made_in_connection_with_a_claim_for_benefits_in_the_case_of_the_abovenamed_veteranbeneficiaryrow1": {
-    "vba-21-0781-are": "",
     "vba-21-4138-are": "section_ii_remarks_the_following_statement_is_made_in_connection_with_a_claim_for_benefits_in_the_case_of_the_abovenamed_veteranbeneficiaryrow1",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "serve_under_another_name_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "serve_under_another_name_no",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "serve_under_another_name_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "serve_under_another_name_yes",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "shelter": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "shelter",
     "_types": "checkbox"
   },
   "signature_of_the_second_witness": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "signature_of_the_second_witness",
     "_types": "signature"
   },
   "since_9112001_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "since_9112001_no",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "since_9112001_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "since_9112001_yes",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "sleep": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "sleep",
     "_types": "checkbox"
   },
-  "state_province_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
+  "claimant_state_province": {
     "VBA-21-526EZ-ARE": "state_province_2",
     "VBA-21-0966-ARE": "state_province_2",
     "vba-20-0995-are": "state_province_2",
+    "VBA-21-0966-ARE": "claimant_state_province",
     "_types": "str"
   },
   "telephone_line_number_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "telephone_line_number_2",
     "_types": "str"
   },
   "telephone_number_area_code_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "telephone_number_area_code_2",
     "_types": "str"
   },
   "telephone_number_operator_code_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "telephone_number_operator_code_2",
     "_types": "str"
   },
   "tests_for_sexually_transmitted_infections": {
     "vba-21-0781-are": "tests_for_sexually_transmitted_infections",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "testss_for_sexually_transmitted_infections": {
     "vba-21-0781-are": "testss_for_sexually_transmitted_infections",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "the_reserves_or_national_guard_no": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "the_reserves_or_national_guard_no",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "the_reserves_or_national_guard_yes": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "the_reserves_or_national_guard_yes",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "to_day_4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "to_day_4",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "to_day_5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "to_day_5",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "to_month_4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "to_month_4",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "to_month_5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "to_month_5",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "to_year_4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "to_year_4",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "to_year_5": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "to_year_5",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "va_file_number_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "va_file_number_2",
     "_types": "str"
   },
   "va_insurance_policy_number_1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "va_insurance_policy_number_1",
     "_types": "str"
   },
   "va_insurance_policy_number_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "va_insurance_policy_number_2",
     "_types": "str"
   },
   "va_medical_center_and_community_based_outpatient_clinics": {
     "vba-21-0781-are": "va_medical_center_and_community_based_outpatient_clinics",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "va_medical_centers_vamc_and_communitybased_outpatient_clinics_cboc": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "va_medical_centers_vamc_and_communitybased_outpatient_clinics_cboc",
     "_types": "checkbox"
   },
   "va_vet_center": {
     "vba-21-0781-are": "va_vet_center",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "va_vet_center",
     "_types": "checkbox"
   },
   "veterans_social_security_no_1": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_1",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_2": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_2",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_21": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_21",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_22": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_22",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_23": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_23",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_3",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_31": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_31",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_32": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_32",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_33": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_33",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_41": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_41",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_42": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_42",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_43": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_43",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_51": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_51",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_52": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_52",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_53": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_53",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_61": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_61",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_62": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_62",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_no_63": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "veterans_social_security_no_63",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_part_1": {
-    "vba-21-0781-are": "",
     "vba-21-4138-are": "veterans_social_security_part_1",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_part_2": {
-    "vba-21-0781-are": "",
     "vba-21-4138-are": "veterans_social_security_part_2",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "veterans_social_security_part_3": {
-    "vba-21-0781-are": "",
     "vba-21-4138-are": "veterans_social_security_part_3",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "was_an-official-report_field_NEITHER": {
     "vba-21-0781-are": "was_an-official-report_field_NEITHER",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "was_an-official-report_field_NO": {
     "vba-21-0781-are": "was_an-official-report_field_NO",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "was_an-official-report_field_OTHER": {
     "vba-21-0781-are": "was_an-official-report_field_OTHER",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "was_an-official-report_field_POLICE REPORT": {
     "vba-21-0781-are": "was_an-official-report_field_POLICE REPORT",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "was_an-official-report_field_RESTRICTED": {
     "vba-21-0781-are": "was_an-official-report_field_RESTRICTED",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "was_an-official-report_field_UNRESTRICTED": {
     "vba-21-0781-are": "was_an-official-report_field_UNRESTRICTED",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "was_an-official-report_field_YES": {
     "vba-21-0781-are": "was_an-official-report_field_YES",
-    "vba-21-4138-are": "",
-    "VBA-21-526EZ-ARE": "",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "when_were_you_exposed_from_month": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "when_were_you_exposed_from_month",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "when_were_you_exposed_from_year": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "when_were_you_exposed_from_year",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "when_were_you_exposed_to_month": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "when_were_you_exposed_to_month",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "when_were_you_exposed_to_year": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "when_were_you_exposed_to_year",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "year_10": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "year_10",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "year_11": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "year_11",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "year_3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "year_3",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "year_6": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "year_6",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "year_7": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "year_7",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "year_8": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "year_8",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "year_9": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "year_9",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "your_living-situation_2_homeless": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "your_living-situation_2_homeless",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "your_living-situation_2_housing": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "your_living-situation_2_housing",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "your_living-situation_2_other": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "your_living-situation_2_other",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "your_living-situation_fleeing": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "your_living-situation_fleeing",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "your_living-situation_living": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "your_living-situation_living",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "your_living-situation_not_currently": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "your_living-situation_not_currently",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "your_living-situation_other": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "your_living-situation_other",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "your_living-situation_staying": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
+    
     "VBA-21-526EZ-ARE": "your_living-situation_staying",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "checkbox"
   },
   "zip_code_postal_code": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "zip_code_postal_code",
-    "VBA-21-0966-ARE": "",
-    "vba-20-0995-are": "",
     "_types": "str"
   },
   "zip_code_postal_code_3": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "zip_code_postal_code_3",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "zip_code_postal_code_3",
     "_types": "str"
   },
   "zip_code_postal_code_4": {
-    "vba-21-0781-are": "",
-    "vba-21-4138-are": "",
     "VBA-21-526EZ-ARE": "zip_code_postal_code_4",
-    "VBA-21-0966-ARE": "",
     "vba-20-0995-are": "zip_code_postal_code_4",
     "_types": "str"
   }
