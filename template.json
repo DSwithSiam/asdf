@@ -162,7 +162,10 @@
 "20c_accreditation_number":"",
 "20d_date_last_submitted_month":"",
 "20d_date_last_submitted_day":"",
-"20d_date_last_submitted_year":""
+"20d_date_last_submitted_year":"",
+"iii_11_police_report_descrption":"",
+"iii_11_other_description":"",
+"iii_12_other_description":""
 },
 
 
@@ -704,7 +707,6 @@
 	"approximate_date_disabilityies_began_or_worsenedrow18_2":"",
 	"approximate_date_disabilityies_began_or_worsenedrow19_2":"",
 	"approximate_date_disabilityies_began_or_worsenedrow20_2":""
-
 },
 
 

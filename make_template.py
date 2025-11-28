@@ -59,6 +59,25 @@ ai_genareted_fields = [
     }
 ]
 
+static_fields = [
+    {
+    "VBA-21-526EZ-ARE" : "THE_TYPE_OF_CLAIM_PROGRAM_PROCESS_FDC_PROGRAM",
+    "VBA-21-526EZ-ARE": "email_address_agree",
+    "VBA-21-526EZ-ARE": "are_you_claiming_no",
+    "_type": "checkbox"
+    },
+    {
+    "VBA-21-526EZ-ARE" : "name_of_financial_institution",
+    "_value": "Already Established",
+    "_type": "str"
+    }
+]
+
+
+signecher_fields = {
+    "VBA-21-526EZ-ARE" : "veteranservice_member_signature_required",
+    }
+
 
 
 

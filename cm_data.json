@@ -2355,6 +2355,7 @@
     "vba-21-0781-are": "other_specify_below",
     "_types": "checkbox"
   },
+
   "other_traumatic_event": {
     "vba-21-0781-are": "other_traumatic_event",
     "_types": "checkbox"
@@ -2751,6 +2752,18 @@
     
     "VBA-21-526EZ-ARE": "your_living-situation_staying",
     "_types": "checkbox"
-  }
+  },
+  "iii_11_police_report_descrption": {
+    "vba-21-0781-are": "iii_11_police_report_descrption",
+    "_types": "checkbox"
+  },
+  "iii_11_other_description": {
+    "vba-21-0781-are": "iii_11_other_description",
+    "_types": "checkbox"
+  },
+  "other_specify_below": {
+    "vba-21-0781-are": "other_specify_below",
+    "_types": "checkbox"
+
 
 }
