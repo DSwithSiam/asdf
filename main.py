@@ -1,6 +1,8 @@
 import os
 import json
 from typing import Any, Dict, List
+
+from auto_data_field import auto_value_field, auto_value_field
 json_path = os.path.join(os.path.dirname(__file__), "cm_data.json")
 # load existing cm_data if present
 if os.path.exists(json_path):
@@ -18,12 +20,12 @@ else:
 #         with open(frontend_path, "r", encoding="utf-8") as f:
 #             try:
 #                 frontend = json.load(f)
-#                 if not isinstance(frontend, list):
-#                     frontend = []
+#                 if not isinstance(frontend, dict):
+#                     frontend = {}
 #             except Exception:
-#                 frontend = []
+#                 frontend = {}
 #     else:
-#         frontend = []
+#         frontend = {}
 
 #     if key not in frontend:
 #         entry = cm_data.get(key, {})
@@ -38,93 +40,80 @@ else:
 #             value = ""
 #         else:
 #             value = ""
-#         frontend.append({key: value})
+#         frontend[key] = value
 #         with open(frontend_path, "w", encoding="utf-8") as f:
 #             json.dump(frontend, f, ensure_ascii=False, indent=2)
 
 
 
-def load_json(path: str) -> Any:
-    if not os.path.exists(path):
-        return None
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
 
-def save_json(path: str, data: Any) -> None:
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+frontend_path = os.path.join(os.path.dirname(__file__), "frontend.json")
+template_path = os.path.join(os.path.dirname(__file__), "template.json")
 
-def frontend_list_to_map(frontend: Any) -> Dict[str, Any]:
-    # frontend expected to be a list of single-key dicts like [{"field1": "val"}, {"field2": "val2"}]
-    result: Dict[str, Any] = {}
-    if isinstance(frontend, dict):
-        return frontend.copy()
-    if not isinstance(frontend, list):
-        return result
-    for item in frontend:
-        if isinstance(item, dict):
-            for k, v in item.items():
-                result[k] = v
-    return result
+with open(template_path, "r", encoding="utf-8") as f:
+    template = json.load(f)
 
-def apply_values_to_template(template: Any, values: Dict[str, Any]) -> Any:
-    # Try several common template shapes:
-    # 1) template["fields"] is a list of field objects with "name"/"key"/"id" -> set "value"
-    # 2) template["fields"] is a dict keyed by field name -> set sub-dict["value"] or value
-    # 3) top-level keys of template map directly to field names
-    if template is None:
-        return None
+frontend = {}
+try:
+    if os.path.exists(frontend_path):
+        with open(frontend_path, "r", encoding="utf-8") as f:
+            frontend = json.load(f)
+            if not isinstance(frontend, dict):
+                frontend = {}
+    else:
+        frontend = {}
+except Exception:
+    frontend = {}
 
-    # Case 1: fields as list
-    fields = template.get("fields") if isinstance(template, dict) else None
-    if isinstance(fields, list):
-        for fld in fields:
-            if not isinstance(fld, dict):
-                continue
-            # identify the field name/key
-            field_key = fld.get("name") or fld.get("key") or fld.get("id")
-            if field_key and field_key in values:
-                fld["value"] = values[field_key]
-        return template
 
-    # Case 2: fields as dict
-    if isinstance(fields, dict):
-        for k, v in values.items():
-            if k in fields:
-                target = fields[k]
-                if isinstance(target, dict):
-                    target["value"] = v
+
+def checkbox_value_formating(value):
+    if value in [True, "true", "True", "on", "On"]:
+        return "On"
+    else:
+        return ""
+
+
+        
+
+def create_template_value_fields(demo_template, frontend_data, cm_data):
+    temp_template = demo_template.copy()
+
+    for key, value in frontend_data.items():
+        if key in cm_data.keys():
+            entry = cm_data.get(key, {})
+            if not isinstance(entry, dict):
+                entry = {}
+            _types = entry.get("_types", "str")
+            
+            for pdf_number, pdf_field in entry.items():
+                # skip the special _types entry which is not a PDF field mapping
+                if pdf_number == "_types":
+                    continue
+
+                # ensure the target page/dict exists
+                if pdf_number not in temp_template or not isinstance(temp_template[pdf_number], dict):
+                    temp_template[pdf_number] = {}
+
+                if _types == "str":
+                    temp_template[pdf_number][pdf_field] = value
+                
+                elif _types == "checkbox":
+                    # Apply value filtering
+                    checkbox_value = checkbox_value_formating(value)
+                    temp_template[pdf_number][pdf_field] = checkbox_value
+                
+                elif _types == "signature":
+                    temp_template[pdf_number][pdf_field] = ""
                 else:
-                    fields[k] = v
-        template["fields"] = fields
-        return template
+                    temp_template[pdf_number][pdf_field] = ""
 
-    # Case 3: top-level keys
-    if isinstance(template, dict):
-        for k, v in values.items():
-            if k in template:
-                if isinstance(template[k], dict):
-                    template[k]["value"] = v
-                else:
-                    template[k] = v
-            else:
-                # create new entry for unknown keys
-                template[k] = v
-        return template
+    final_template = auto_value_field(temp_template)
+    return final_template
 
-    # Fallback: return unmodified
-    return template
 
-# Entrypoint: read frontend.json and template.json, apply values, save to template_data.json
-base_dir = os.path.dirname(__file__)
-frontend_path = os.path.join(base_dir, "frontend.json")
-template_path = os.path.join(base_dir, "template.json")
-out_path = os.path.join(base_dir, "template_data.json")
 
-frontend = load_json(frontend_path) or []
-template = load_json(template_path) or {}
+new_template = create_template_value_fields(demo_template = template, frontend_data = frontend, cm_data = cm_data)
 
-values_map = frontend_list_to_map(frontend)
-new_template = apply_values_to_template(template, values_map)
-
-save_json(out_path, new_template)
+with open("filled_template.json", "w", encoding="utf-8") as f:
+    json.dump(new_template, f, ensure_ascii=False, indent=2)
