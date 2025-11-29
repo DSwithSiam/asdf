@@ -68,6 +68,10 @@ static_fields = [
     "VBA-21-0966-ARE":"I_agree_to_receive_electronic_correspondence_from_VA_in_regards_to_my_claim",
     "VBA-21-0966-ARE": "compensation",
     "vba-21-0781-are": "consent_04",
+    "vba-20-0995-are": "benefit_type_COMPENSATION",
+    "vba-20-0995-are":"i_certify_that_yes",
+    "vba-20-0995-are":"not_applicable_consent",
+
     "_type": "checkbox"
     },
     {
@@ -83,6 +87,7 @@ signecher_fields = {
     "vba-21-0781-are" : "16a_veteran_service_members_signature",
     "vba-21-4138-are":"signature_of_veteran_beneficiary_required",
     "VBA-21-0966-ARE":"signature_of_veteran_agent",
+    "vba-20-0995-are":"veteran_claimant_signature",
     }
 
 

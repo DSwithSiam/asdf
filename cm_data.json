@@ -237,14 +237,17 @@
   },
   "13c_name_and_location_of_the_treatment_facility_row1": {
     "vba-21-0781-are": "13c_name_and_location_of_the_treatment_facility_row1",
+    "vba-20-0995-are": "22b_name_and_location_of_the_treatment_facilityrow1", 
     "_types": "str"
   },
   "13c_name_and_location_of_the_treatment_facility_row2": {
     "vba-21-0781-are": "13c_name_and_location_of_the_treatment_facility_row2",
+    "vba-20-0995-are": "22b_name_and_location_of_the_treatment_facilityrow2",
     "_types": "str"
   },
   "13c_name_and_location_of_the_treatment_facility_row3": {
     "vba-21-0781-are": "13c_name_and_location_of_the_treatment_facility_row3",
+    "vba-20-0995-are": "22b_name_and_location_of_the_treatment_facilityrow3",
     "_types": "str"
   },
   "14a_are_you_currently_homeless_if_yes_complete_item_14b_regarding_your_living_situation_yes_no": {
@@ -431,24 +434,13 @@
     "VBA-21-526EZ-ARE": "22b_month_6",
     "_types": "str"
   },
-  "22b_name_and_location_of_the_treatment_facilityrow1": {
-    "vba-20-0995-are": "22b_name_and_location_of_the_treatment_facilityrow1",
-    "_types": "str"
-  },
+
   "22b_name_and_location_of_the_treatment_facilityrow1_sn": {
     "vba-20-0995-are": "22b_name_and_location_of_the_treatment_facilityrow1_sn",
     "_types": "str"
   },
-  "22b_name_and_location_of_the_treatment_facilityrow2": {
-    "vba-20-0995-are": "22b_name_and_location_of_the_treatment_facilityrow2",
-    "_types": "str"
-  },
   "22b_name_and_location_of_the_treatment_facilityrow2_sn": {
     "vba-20-0995-are": "22b_name_and_location_of_the_treatment_facilityrow2_sn",
-    "_types": "str"
-  },
-  "22b_name_and_location_of_the_treatment_facilityrow3": {
-    "vba-20-0995-are": "22b_name_and_location_of_the_treatment_facilityrow3",
     "_types": "str"
   },
   "22b_name_and_location_of_the_treatment_facilityrow3_sn": {
@@ -1705,28 +1697,19 @@
     "vba-21-0781-are": "disciplinary_or_legal_difficulties",
     "_types": "str"
   },
-  "don't_have_date_1": {
-    "vba-20-0995-are": "don't_have_date_1",
-    "_types": "checkbox"
-  },
-  "don't_have_date_2": {
-    "vba-20-0995-are": "don't_have_date_2",
-    "_types": "checkbox"
-  },
-  "don't_have_date_3": {
-    "vba-20-0995-are": "don't_have_date_3",
-    "_types": "checkbox"
-  },
   "dont_have_date1": {
     "vba-21-0781-are": "dont_have_date1",
+    "vba-20-0995-are": "don't_have_date_1",
     "_types": "checkbox"
   },
   "dont_have_date2": {
     "vba-21-0781-are": "dont_have_date2",
+     "vba-20-0995-are": "don't_have_date_2",
     "_types": "checkbox"
   },
   "dont_have_date3": {
     "vba-21-0781-are": "dont_have_date3",
+    "vba-20-0995-are": "don't_have_date_3",
     "_types": "checkbox"
   },
   "dont_have_date_1": {
@@ -1929,10 +1912,7 @@
     "VBA-21-526EZ-ARE": "explain_how_the_disabilityies_relates_to_the_inservice_eventexposureinjuryrow9_2",
     "_types": "str"
   },
-  "family_member": {
-    "vba-20-0995-are": "family_member",
-    "_types": "checkbox"
-  },
+
   "family_members_or_roommates": {
     "vba-21-0781-are": "family_members_or_roommates",
     "_types": "checkbox"
@@ -2305,14 +2285,6 @@
     "vba-21-0781-are": "neither",
     "_types": "checkbox"
   },
-  "next_30-days_leave_facility": {
-    "vba-20-0995-are": "next_30-days_leave_facility",
-    "_types": "checkbox"
-  },
-  "next_30-days_lose_my_home": {
-    "vba-20-0995-are": "next_30-days_lose_my_home",
-    "_types": "checkbox"
-  },
   "none": {
     "vba-21-0781-are": "none",
     "_types": "checkbox"
@@ -2339,13 +2311,13 @@
   },
   "other_specify": {
     "VBA-21-526EZ-ARE": "other_specify",
-    "vba-20-0995-are": "other_specify",
-    "_types": "checkbox"
+    "vba-20-0995-are": "others_specify",
+    "_types": "str"
   },
   "other_specify_2": {
     "VBA-21-526EZ-ARE": "other_specify_2",
-    "vba-20-0995-are": "other_specify_2",
-    "_types": "checkbox"
+    "vba-20-0995-are": "others_specify",
+    "_types": "str"
   },
   "other_specify_3": {
     "VBA-21-526EZ-ARE": "other_specify_3",
@@ -2359,10 +2331,6 @@
   "other_traumatic_event": {
     "vba-21-0781-are": "other_traumatic_event",
     "_types": "checkbox"
-  },
-  "others_specify": {
-    "vba-20-0995-are": "others_specify",
-    "_types": "str"
   },
   "payment_agent": {
     "VBA-21-526EZ-ARE": "payment_agent",
@@ -2726,14 +2694,17 @@
   },
   "your_living-situation_2_housing": {
     "VBA-21-526EZ-ARE": "your_living-situation_2_housing",
+    "vba-20-0995-are": "next_30-days_lose_my_home",
     "_types": "checkbox"
   },
   "your_living-situation_2_other": {
     "VBA-21-526EZ-ARE": "your_living-situation_2_other",
+    "vba-20-0995-are": "other_specify",
     "_types": "checkbox"
   },
   "your_living-situation_fleeing": {
     "VBA-21-526EZ-ARE": "your_living-situation_fleeing",
+    "vba-20-0995-are": "next_30-days_leave_facility",
     "_types": "checkbox"
   },
   "your_living-situation_living": {
@@ -2751,6 +2722,7 @@
   "your_living-situation_staying": {
     
     "VBA-21-526EZ-ARE": "your_living-situation_staying",
+    "vba-20-0995-are": "family_member",
     "_types": "checkbox"
   },
   "iii_11_police_report_descrption": {

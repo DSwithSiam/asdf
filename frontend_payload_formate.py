@@ -1,6 +1,5 @@
 body = {
   "pdf_data": 
-     
         {
         "veteran_service_member_first_fname":"Masipul",
         "veteran_service_member_middle_mname":"I",
