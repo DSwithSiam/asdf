@@ -904,35 +904,35 @@
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event",
     "_types": "checkbox"
   },
-  "behavioral_changes_experienced_following_the_traumatic_event_01": {
+  "behavioral_changes_experienced_following_the_traumatic_event_1": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event_01",
     "_types": "checkbox"
   },
-  "behavioral_changes_experienced_following_the_traumatic_event_02": {
+  "behavioral_changes_experienced_following_the_traumatic_event_2": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event_02",
     "_types": "checkbox"
   },
-  "behavioral_changes_experienced_following_the_traumatic_event_03": {
+  "behavioral_changes_experienced_following_the_traumatic_event_3": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event_03",
     "_types": "checkbox"
   },
-  "behavioral_changes_experienced_following_the_traumatic_event_04": {
+  "behavioral_changes_experienced_following_the_traumatic_event_4": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event_04",
     "_types": "checkbox"
   },
-  "behavioral_changes_experienced_following_the_traumatic_event_05": {
+  "behavioral_changes_experienced_following_the_traumatic_event_5": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event_05",
     "_types": "checkbox"
   },
-  "behavioral_changes_experienced_following_the_traumatic_event_06": {
+  "behavioral_changes_experienced_following_the_traumatic_event_6": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event_06",
     "_types": "checkbox"
   },
-  "behavioral_changes_experienced_following_the_traumatic_event_07": {
+  "behavioral_changes_experienced_following_the_traumatic_event_7": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event_07",
     "_types": "checkbox"
   },
-  "behavioral_changes_experienced_following_the_traumatic_event_08": {
+  "behavioral_changes_experienced_following_the_traumatic_event_8": {
     "vba-21-0781-are": "behavioral_changes_experienced_following_the_traumatic_event_08",
     "_types": "checkbox"
   },
@@ -1012,19 +1012,19 @@
     "VBA-21-526EZ-ARE": "branch_of_service_usphs",
     "_types": "checkbox"
   },
-  "brief_description_of_the_traumatic_events_number_01": {
+  "brief_description_of_the_traumatic_events_number_1": {
     "vba-21-0781-are": "brief_description_of_the_traumatic_events_number_01",
     "_types": "str"
   },
-  "brief_description_of_the_traumatic_events_number_02": {
+  "brief_description_of_the_traumatic_events_number_2": {
     "vba-21-0781-are": "brief_description_of_the_traumatic_events_number_02",
     "_types": "str"
   },
-  "brief_description_of_the_traumatic_events_number_03": {
+  "brief_description_of_the_traumatic_events_number_3": {
     "vba-21-0781-are": "brief_description_of_the_traumatic_events_number_03",
     "_types": "str"
   },
-  "brief_description_of_the_traumatic_events_number_04": {
+  "brief_description_of_the_traumatic_events_number_4": {
     "vba-21-0781-are": "brief_description_of_the_traumatic_events_number_04",
     "_types": "str"
   },
@@ -1609,7 +1609,7 @@
     "VBA-21-526EZ-ARE": "date_signed_year_37b",
     "_types": "str"
   },
-  "dates_the_traumatic_events_occured_month_number_01": {
+  "dates_the_traumatic_events_occured_month_number_1": {
     "vba-21-0781-are": "dates_the_traumatic_events_occured_month_number_01",
     "_types": "str"
   },
@@ -1973,11 +1973,11 @@
     "VBA-21-0966-ARE": "have_ever_filed_a_va_claim_yes",
     "_types": "checkbox"
   },
-  "have_you-received_treatment_related_to_the_impact_of_the_traumatic_event_listed_in_item-9a_01": {
+  "have_you-received_treatment_related_to_the_impact_of_the_traumatic_event_listed_in_item-9a_1": {
     "vba-21-0781-are": "have_you-received_treatment_related_to_the_impact_of_the_traumatic_event_listed_in_item-9a_01",
     "_types": "checkbox"
   },
-  "have_you-received_treatment_related_to_the_impact_of_the_traumatic_event_listed_in_item-9a_02": {
+  "have_you-received_treatment_related_to_the_impact_of_the_traumatic_event_listed_in_item-9a_2": {
     "vba-21-0781-are": "have_you-received_treatment_related_to_the_impact_of_the_traumatic_event_listed_in_item-9a_02",
     "_types": "checkbox"
   },
