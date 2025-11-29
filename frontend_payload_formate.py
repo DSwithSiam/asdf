@@ -252,6 +252,8 @@ body = {
         "dont_have_date1":"",
         "dont_have_date2":"",
         "dont_have_date3":"",
+        "sleep":"",
+        "shelter":"",
         },
   "signatureImage": "",
   "document": "",
