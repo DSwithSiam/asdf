@@ -179,7 +179,7 @@ def create_template_value_fields(demo_template, frontend_data, cm_data):
 
     final_template = auto_value_field(temp_template)
 
-    # Save the final template to a JSON file (filled_template.json)
+    # Save the final template to a JSON file (filled_template.json, testing purpose)
     with open("filled_template.json", "w", encoding="utf-8") as f:
         json.dump(final_template, f, ensure_ascii=False, indent=2)
         

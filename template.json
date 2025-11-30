@@ -421,34 +421,34 @@
 	"19b_component_national_guard":"",  
 
 
-  "month_3":"",
-  "day_3":"",
-  "year_3":"",
-  "exit_date_month":"",
-  "exit_date_day":"",
-  "exit_date_year":"",
-  "from_month_4":"",
-  "from_day_4":"",
-  "from_year_4":"",
-  
-  
-  
-  "to_month_4":"",
-  "to_day_4":"",
-  "to_year_4":"",
-  
-  "the_reserves_or_national_guard_yes":"",
-  "the_reserves_or_national_guard_no":"",
-  "component_national_guard_2":"",  
-  "component_reserves_2":"",  
-  
-  "from_month_5":"",  
-  "from_day_5":"",  
-  "from_year_5": "",
-  "to_month_5":"",  
-  "to_day_5":"",  
-  "to_year_5":"",  
-  "from_month_5":"",  
+    "month_3":"",
+    "day_3":"",
+    "year_3":"",
+    "exit_date_month":"",
+    "exit_date_day":"",
+    "exit_date_year":"",
+    "from_month_4":"",
+    "from_day_4":"",
+    "from_year_4":"",
+    
+    
+    
+    "to_month_4":"",
+    "to_day_4":"",
+    "to_year_4":"",
+    
+    "the_reserves_or_national_guard_yes":"",
+    "the_reserves_or_national_guard_no":"",
+    "component_national_guard_2":"",  
+    "component_reserves_2":"",  
+    
+    "from_month_5":"",  
+    "from_day_5":"",  
+    "from_year_5": "",
+    "to_month_5":"",  
+    "to_day_5":"",  
+    "to_year_5":"",  
+    "from_month_5":"",  
 
 
 
