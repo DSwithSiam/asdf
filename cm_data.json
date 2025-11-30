@@ -1,5 +1,5 @@
 {
-  "veterans_first_name": {
+  "veteran_service_member_first_fname": {
     "vba-21-0781-are": "veteran_service_member_first_fname",
     "vba-21-4138-are": "veteran_beneficiarys_first_fname",
     "VBA-21-526EZ-ARE": "veteran_service_member_first_name",
@@ -7,7 +7,7 @@
     "vba-20-0995-are": "veteran_first_fname",
     "_types": "str"
   },
-  "veterans_middle_name": {
+  "veteran_service_member_middle_mname": {
     "vba-21-0781-are": "veteran_service_member_middle_mname",
     "vba-21-4138-are": "veteran_beneficiarys_middle_mname",
     "VBA-21-526EZ-ARE": "veteran_service_member_middle_name",
@@ -15,7 +15,7 @@
     "vba-20-0995-are": "veteran_middle_mname",
     "_types": "str"
   },
-  "veterans_last_name": {
+  "veteran_service_member_last_lname": {
     "vba-21-0781-are": "veteran_service_member_last_lname",
     "vba-21-4138-are": "veteran_beneficiarys_last_lname",
     "VBA-21-526EZ-ARE": "veteran_service_member_last_name",
