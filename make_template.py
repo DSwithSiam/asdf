@@ -1,5 +1,8 @@
+from datetime import datetime
 import os
 import json
+from .auto_value_fields import *
+
 
 frontend_path = os.path.join(os.path.dirname(__file__), "frontend.json")
 template_path = os.path.join(os.path.dirname(__file__), "template.json")
@@ -15,86 +18,12 @@ with open(cm_data_path, "r", encoding="utf-8") as f:
     cm_data = json.load(f)
 
 
-
-# --------------------------- Auto Data Field Module ---------------------------
-
-from datetime import datetime
-import json
-
-
-signecher_date_fields = [
-    {
-    "VBA-21-526EZ-ARE" : "date_signed_month_33b",
-    "vba-21-4138-are" : "date_signed_month",
-    "VBA-21-0966-AREvba-21-0781-are" : "date_signed_month",
-    "vba-20-0995-are" : "25b_date_signed_month",
-    "vba-21-0781-are" : "16b_date_signed_month",
-    "_type": "month"
-    },
-    
-    { 
-    "VBA-21-526EZ-ARE" : "date_signed_day_33b",
-    "vba-21-4138-are" : "date_signed_day",
-    "VBA-21-0966-ARE" : "date_signed_day",
-    "vba-20-0995-are" : "25b_date_signed_day",
-    "vba-21-0781-are" : "16b_date_signed_day",
-    "_type": "day"
-    },
-
-    {
-    "VBA-21-526EZ-ARE" : "date_signed_year_33b",
-    "vba-21-4138-are" : "date_signed_year",
-    "VBA-21-0966-ARE" : "date_signed_year",
-    "vba-20-0995-are" : "25b_date_signed_year",
-    "vba-21-0781-are" : "16b_date_signed_year",
-    "_type": "year"
-    }
-]    
-
-
-ai_genareted_fields = [
-    {
-    "vba-21-4138-are" : "section_ii_remarks_the_following_statement_is_made_in_connection_with_a_claim_for_benefits_in_the_case_of_the_abovenamed_veteranbeneficiaryrow1",
-    "vba-21-4138-are": "section_ii_remarks_continued_the_following_statement_is_made_in_connection_with_a_claim_for_benefits_in_the_case_of_the_abovenamed_veteranbeneficiaryrow1",
-    "_type": "naretion"
-    }
-]
-
-static_fields = [
-    {
-    "VBA-21-526EZ-ARE" : "THE_TYPE_OF_CLAIM_PROGRAM_PROCESS_FDC_PROGRAM",
-    "VBA-21-526EZ-ARE": "email_address_agree",
-    "VBA-21-526EZ-ARE": "are_you_claiming_no",
-    "VBA-21-0966-ARE":"I_agree_to_receive_electronic_correspondence_from_VA_in_regards_to_my_claim",
-    "VBA-21-0966-ARE": "compensation",
-    "vba-21-0781-are": "consent_04",
-    "vba-20-0995-are": "benefit_type_COMPENSATION",
-    "vba-20-0995-are":"i_certify_that_yes",
-    "vba-20-0995-are":"not_applicable_consent",
-
-    "_type": "checkbox"
-    },
-    {
-    "VBA-21-526EZ-ARE" : "name_of_financial_institution",
-    "_value": "Already Established",
-    "_type": "str"
-    }
-]
-
-
-signecher_fields = {
-    "VBA-21-526EZ-ARE" : "veteranservice_member_signature_required",
-    "vba-21-0781-are" : "16a_veteran_service_members_signature",
-    "vba-21-4138-are":"signature_of_veteran_beneficiary_required",
-    "VBA-21-0966-ARE":"signature_of_veteran_agent",
-    "vba-20-0995-are":"veteran_claimant_signature",
-    }
-
-
+FORM_TEMPLATES = template
+cm_json_data = cm_data
 
 
 # Auto value field filling function (main helper function)
-def auto_value_field(temp_template):
+def auto_value_field(temp_template, summary=None):
     """ Auto fill certain fields with predefined values like current date etc. """
 
     datetime_now = datetime.now()
@@ -109,9 +38,10 @@ def auto_value_field(temp_template):
             value = str(datetime_now.year)
 
         items.pop("_type", None)
+        print(items)
 
         for pdf_name, field_name in items.items():
-            if pdf_name in temp_template:
+            if pdf_name in temp_template and pdf_name != "_type":
                 if field_name in temp_template[pdf_name]:
                     temp_template[pdf_name][field_name] = value
 
@@ -121,7 +51,7 @@ def auto_value_field(temp_template):
     for items in ai_genareted_fields:
         _type = items["_type"]
         if _type == "naretion":
-            value = "This section to be filled by AI generated content."
+            value = summary if summary else ""
 
         items.pop("_type", None)
 
@@ -143,11 +73,68 @@ def checkbox_value_formating(value):
         return ""
 
 
-        
+# "VBA-21-526EZ-ARE": "are_you_claiming_no",
+
+def check_are_you_claiming(template):
+    """ 
+    Check if the user is claiming 'No' and return appropriate value. 
+    """
+    temp_template = template.copy()
+    tmp_bool = False
+    for key, value in current_disability_fields.items():
+        value_to_check = temp_template.get(key, {}).get(value, "")
+        if value_to_check in current_disability_fields_values:
+            tmp_bool = True
+            break
+    
+    if tmp_bool:
+        temp_template["VBA-21-526EZ-ARE"]["are_you_claiming_yes"] = "On"
+    else:
+        temp_template["VBA-21-526EZ-ARE"]["are_you_claiming_no"] = "On"
+        for key, value in exposure_information_fields.items():
+            temp_template[key][value] = ""
+
+    return temp_template
+
+
+
+
+def check_PTSD(template):
+    """ 
+    Check if the user has PTSD and return appropriate value. 
+    """
+    temp_template = template.copy()
+    pdf_name = "VBA-21-526EZ-ARE"
+    pdf_key = "do_you_have_ptsd"
+    ptsd_value = temp_template.get(pdf_name, {}).get(pdf_key, "")
+    
+    if ptsd_value.lower() == "yes" or ptsd_value.lower() == "on":
+        return True
+    else:
+        return False
+    
+
+def previus_claim(template):
+    """ 
+    Check if the user has previous claim and return appropriate value. 
+    """
+    temp_template = template.copy()
+    pdf_name = "VBA-21-526EZ-ARE"
+    pdf_key = "have_you_previously_filed_a_claim_for_va_benefits"
+    previous_claim_value = temp_template.get(pdf_name, {}).get(pdf_key, "")
+    
+    if previous_claim_value.lower() == "yes" or previous_claim_value.lower() == "on":
+        return True
+    else:
+        return False
+
+
+
 # Main function to create template with values
-def create_template_value_fields(demo_template, frontend_data, cm_data):
+def create_template_value_fields(frontend_data, summary=None):
     """ Create a template with values filled in based on frontend data and configuration mapping. """
-    temp_template = demo_template.copy()
+    temp_template = FORM_TEMPLATES.copy()
+    cm_data = cm_json_data.copy()
 
     for key, value in frontend_data.items():
         if key in cm_data.keys():
@@ -177,14 +164,13 @@ def create_template_value_fields(demo_template, frontend_data, cm_data):
                 else:
                     temp_template[pdf_number][pdf_field] = ""
 
-    final_template = auto_value_field(temp_template)
+    temp_template = auto_value_field(temp_template, summary)
+    final_template = check_are_you_claiming(temp_template)
 
-    # Save the final template to a JSON file (filled_template.json, testing purpose)
+    # Save the final template to a JSON file (filled_template.json)
     with open("filled_template.json", "w", encoding="utf-8") as f:
         json.dump(final_template, f, ensure_ascii=False, indent=2)
         
     return final_template
 
 
-
-new_template = create_template_value_fields(demo_template = template, frontend_data = frontend, cm_data = cm_data)

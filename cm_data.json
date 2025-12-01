@@ -2740,7 +2740,21 @@
   "I_agree_to_receive_electronic_correspondence_from_VA_in_regards_to_my_claim": {
     "VBA-21-0966-ARE": "I_agree_to_receive_electronic_correspondence_from_VA_in_regards_to_my_claim",
     "_types": "str"
-  }
-
-
+  },
+  "account_number": {
+    "VBA-21-526EZ-ARE": "account_number",
+    "_types": "str"
+  },
+  "account_number_checkings": {
+    "VBA-21-526EZ-ARE": "account_number_checkings",
+    "_types": "checkbox"
+  },
+  "account_number_savings": {
+    "VBA-21-526EZ-ARE": "account_number_savings",
+    "_types": "checkbox"
+    },
+    "routing_or_transit_number": {
+    "VBA-21-526EZ-ARE": "routing_or_transit_number",
+    "_types": "str"
+    }
 }
