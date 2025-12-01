@@ -129,6 +129,20 @@ def previus_claim(template):
         return False
 
 
+def middle_name_update(template):
+    """ 
+    Check if the user has provided middle name and return appropriate value. 
+    """
+    temp_template = template.copy()
+    cm_data = cm_json_data.copy()
+    middle_name_fields = cm_data.get("veteran_service_member_middle_mname", {})
+    for pdf_name, field_name in middle_name_fields.items():
+        if pdf_name in temp_template:
+            middle_name_value = temp_template[pdf_name].get(field_name, "")
+            if middle_name_value.strip() == "":
+                # If middle name is empty, set the corresponding checkbox
+                checkbox_field = field_name.replace("middle_mname", "no_middle_name")
+                temp_template[pdf_name][checkbox_field] = "On"
 
 # Main function to create template with values
 def create_template_value_fields(frontend_data, summary=None):
@@ -172,5 +186,3 @@ def create_template_value_fields(frontend_data, summary=None):
         json.dump(final_template, f, ensure_ascii=False, indent=2)
         
     return final_template
-
-
