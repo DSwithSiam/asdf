@@ -25,47 +25,26 @@
   },
   "veterans_ssn_part1": {
     "vba-21-0781-are": "social_security_number_part1",
-    "vba-21-4138-are": "veteran_social_security_number_part1",
-    "VBA-21-526EZ-ARE": "social_security_number_part1",
     "VBA-21-0966-ARE": "social_security_number_part_1",
     "vba-20-0995-are": "social_security_number_part11",
-    "vba-21-4138-are": "veterans_social_security_part_1",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_1",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_21",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_31",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_41",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_51",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_61",
+    "vba-21-4138-are": ["veterans_social_security_part_1", "veteran_social_security_number_part1"],
+    "VBA-21-526EZ-ARE": ["veterans_social_security_no_61", "veterans_social_security_no_51", "veterans_social_security_no_41", "social_security_number_part1", "veterans_social_security_no_1", "veterans_social_security_no_21", "veterans_social_security_no_31",],
     "_types": "str"
   },
   "veterans_ssn_part2": {
     "vba-21-0781-are": "social_security_number_part2",
-    "vba-21-4138-are": "veteran_social_security_number_part2",
-    "VBA-21-526EZ-ARE": "social_security_number_part2",
     "VBA-21-0966-ARE": "social_security_number_part_2",
     "vba-20-0995-are": "social_security_number_part12",
-    "vba-21-4138-are": "veterans_social_security_part_2",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_2",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_22",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_32",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_42",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_52",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_62",
+    "vba-21-4138-are": ["veterans_social_security_part_2", "veteran_social_security_number_part2"],
+    "VBA-21-526EZ-ARE": ["veterans_social_security_no_62", "veterans_social_security_no_52", "veterans_social_security_no_42", "veterans_social_security_no_32", "social_security_number_part2", "veterans_social_security_no_2", "veterans_social_security_no_22",],
     "_types": "str"
   },
   "veterans_ssn_part3": {
     "vba-21-0781-are": "social_security_number_part3",
-    "vba-21-4138-are": "veteran_social_security_number_part3",
-    "VBA-21-526EZ-ARE": "social_security_number_part3",
+    "vba-21-4138-are": ["veterans_social_security_part_3", "veteran_social_security_number_part3"],
     "VBA-21-0966-ARE": "social_security_number_part_3",
     "vba-20-0995-are": "social_security_number_part13",
-    "vba-21-4138-are": "veterans_social_security_part_3",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_3",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_23",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_33",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_43",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_53",
-    "VBA-21-526EZ-ARE": "veterans_social_security_no_63",
+    "VBA-21-526EZ-ARE": ["veterans_social_security_no_63", "veterans_social_security_no_53", "veterans_social_security_no_43", "veterans_social_security_no_33", "social_security_number_part3", "veterans_social_security_no_3", "veterans_social_security_no_23",],
     "_types": "str"
   },
   "veterans_va_file_number": {
@@ -89,8 +68,7 @@
     "vba-21-4138-are": "veteran_dob_day",
     "VBA-21-526EZ-ARE": "dob_day",
     "VBA-21-0966-ARE": "dob_day",
-    "vba-20-0995-are": "dob_day_1",
-    "vba-20-0995-are": "dob_day_2",
+    "vba-20-0995-are": ["dob_day_2",  "dob_day_1"],
     "_types": "str"
   },
   "veterans_dob_year": {
@@ -152,10 +130,9 @@
   "veterans_email_optional": {
     "vba-21-0781-are": "email_address_2",
     "vba-21-4138-are": "email_address_2",
-    "VBA-21-526EZ-ARE": "email_address_2",
     "VBA-21-0966-ARE": "email_address_2",
     "vba-20-0995-are": "email_address_2",
-    "VBA-21-526EZ-ARE": "email_address_number_02",
+    "VBA-21-526EZ-ARE": ["email_address_number_02", "email_address_2"],
     "_types": "str"
   },
   "veterans_mailing_address": {
@@ -2147,7 +2124,7 @@
   },
   "increased_decreased_visits_to_a_healthcare_professional_counselor_or_treatment_facility_checkbox": {
     "vba-21-0781-are": "increased_decreased_visits_to_a_healthcare_professional_counselor_or_treatment_facility_checkbox",
-    "_types": "checkbox"
+    "_types": "str"
   },
   "increaseddecreased_use_of_alcohol_or_drugs": {
     "vba-21-0781-are": "increaseddecreased_use_of_alcohol_or_drugs",
@@ -2269,7 +2246,7 @@
     "VBA-21-526EZ-ARE": "month_8",
     "_types": "str"
   },
-  "activation_month_9": {
+  "confinement_month_9": {
     "VBA-21-526EZ-ARE": "month_9",
     "_types": "str"
   },
@@ -2474,7 +2451,7 @@
   },
   "request_for_a_change_in_occupational_series_or_duty_assignment_checkbox": {
     "vba-21-0781-are": "request_for_a_change_in_occupational_series_or_duty_assignment_checkbox",
-    "_types": "checkbox"
+    "_types": "str"
   },
   "retired_status_permanent_disability": {
     "VBA-21-526EZ-ARE": "retired_status_permanent_disability",

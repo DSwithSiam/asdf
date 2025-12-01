@@ -141,7 +141,7 @@ body = {
         "activation_year_6":"0000",
         "anticipated_month_7":"00",
         "anticipated_day_7":"00",
-        "anticipated_day_7":"00",
+        "anticipated_year_7":"0000",
         "prisoner_of_war_yes":"On",
         "prisoner_of_war_no":"On",
         "confinement_month_8":"00",
