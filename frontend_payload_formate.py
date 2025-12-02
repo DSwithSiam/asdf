@@ -295,7 +295,11 @@ body = {
         "13c_name_and_location_of_the_treatment_facility_row1": "retwertewrtwert",
         "13c_name_and_location_of_the_treatment_facility_row2": "retwertewrtwert",
         "13c_name_and_location_of_the_treatment_facility_row3": "retwertewrtwert",
-        "none_of_these_situations_apply_to_me":"On"
+        "none_of_these_situations_apply_to_me":"On",
+        "location_from_month":"00",
+        "location_from_year":"0000",
+        "location_to_month":"00",
+        "location_to_year":"0000"
 
         },
   "signatureImage": "On",
