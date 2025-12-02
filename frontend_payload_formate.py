@@ -1,6 +1,7 @@
 body = {
   "pdf_data": 
         {
+        "previous_claim":"Yes",
         "veteran_service_member_first_fname":"Porgus",
         "veteran_service_member_middle_mname":"D",
         "veteran_service_member_last_lname":"Aceclahlc",
@@ -37,10 +38,10 @@ body = {
         "your_living-situation_2_homeless":"On",
         "your_living-situation_2_other":"On",
         "other_specify_2":"abcefghijklmnopqrstuvwxyz",
-        "current_disabilityiesrow1":"abcefghijklmnopqrstuvwxyz",
-        "current_disabilityiesrow2":"abcefghijklmnopqrstuvwxyz",
-        "current_disabilityiesrow3":"abcefghijklmnopqrstuvwxyz",
-        "current_disabilityiesrow4":"abcefghijklmnopqrstuvwxyz",
+        "current_disabilityiesrow1":"Cancer",
+        "current_disabilityiesrow2":"Rhinitis",
+        "current_disabilityiesrow3":"Sinusitis",
+        "current_disabilityiesrow4":"asdfasdf",
         "current_disabilityiesrow5":"abcefghijklmnopqrstuvwxyz",
         "current_disabilityiesrow6":"abcefghijklmnopqrstuvwxyz",
         "current_disabilityiesrow7":"abcefghijklmnopqrstuvwxyz",
@@ -50,7 +51,7 @@ body = {
         "current_disabilityiesrow11":"abcefghijklmnopqrstuvwxyz",
         "current_disabilityiesrow12":"abcefghijklmnopqrstuvwxyz",
         "current_disabilityiesrow13":"abcefghijklmnopqrstuvwxyz",
-        "current_disabilityiesrow14":"abcefghijklmnopqrstuvwxyz",
+        "current_disabilityiesrow14":"ptsd",
         "current_disabilityiesrow15":"abcefghijklmnopqrstuvwxyz",
         "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow1":"abcefghijklmnopqrstuvwxyz",
         "if_due_to_exposure_event_or_injury_please_specify_eg_agent_orange_radiation_burn_pitsrow2":"abcefghijklmnopqrstuvwxyz",
@@ -141,7 +142,7 @@ body = {
         "activation_year_6":"0000",
         "anticipated_month_7":"00",
         "anticipated_day_7":"00",
-        "anticipated_year_7":"0000",
+        "anticipated_day_7":"00",
         "prisoner_of_war_yes":"On",
         "prisoner_of_war_no":"On",
         "confinement_month_8":"00",
@@ -288,7 +289,10 @@ body = {
         "account_number_checkings":"On",
         "account_number_savings":"On",
         "name_of_financial_institution":"abcefghijklmnopqrstuvwxyz",
-        "routing_or_transit_number":"00000000"
+        "routing_or_transit_number":"00000000",
+        "13c_name_and_location_of_the_treatment_facility_row1": "retwertewrtwert",
+        "13c_name_and_location_of_the_treatment_facility_row2": "retwertewrtwert",
+        "13c_name_and_location_of_the_treatment_facility_row3": "retwertewrtwert"
 
         },
   "signatureImage": "On",
