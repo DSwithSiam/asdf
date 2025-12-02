@@ -186,7 +186,9 @@ body = {
         "dates_the_traumatic_events_occured_year_number_5":"0000",
         "dates_the_traumatic_events_occured_year_number_6":"0000",
         "increased_decreased_visits_to_a_healthcare_professional_counselor_or_treatment_facility_checkbox":"On",
+        "increased_decreased_visits_to_a_healthcare_professional_counselor_or_treatment_facility": "qwerqwerqwer",
         "request_for_a_change_in_occupational_series_or_duty_assignment_checkbox":"On",
+        "request_for_a_change_in_occupational_series_or_duty_assignment": "asdfasdfas",
         "behavioral_changes_experienced_following_the_traumatic_event_1":"On",
         "behavioral_changes_experienced_following_the_traumatic_event_2":"On",
         "behavioral_changes_experienced_following_the_traumatic_event_3":"On",
@@ -292,7 +294,8 @@ body = {
         "routing_or_transit_number":"00000000",
         "13c_name_and_location_of_the_treatment_facility_row1": "retwertewrtwert",
         "13c_name_and_location_of_the_treatment_facility_row2": "retwertewrtwert",
-        "13c_name_and_location_of_the_treatment_facility_row3": "retwertewrtwert"
+        "13c_name_and_location_of_the_treatment_facility_row3": "retwertewrtwert",
+        "none_of_these_situations_apply_to_me":"On"
 
         },
   "signatureImage": "On",
