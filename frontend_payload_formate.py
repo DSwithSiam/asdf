@@ -155,7 +155,7 @@ body = {
         "confinement_day_10":"10",
         "confinement_year_10":"1010",
         "confinement_month_11":"11",
-        "confinement_day_11":"1",
+        "confinement_day_11":"11",
         "confinement_year_11":"1111",
         "combat_tramatic_event":"On",
         "personal_traumatic_event_mst_no":"On",
